@@ -1,0 +1,82 @@
+{
+  "summary": {
+    "faithfulness": 0.7916666666666666,
+    "answer_relevancy": 0.5023286776033185,
+    "context_precision": 0.5729166666409722,
+    "context_recall": 0.625
+  },
+  "per_question": [
+    {
+      "question": "什么是 RAG 技术，它主要解决什么问题？",
+      "answer": "RAG（Retrieval-Augmented Generation，检索增强生成）技术是一种将外部知识检索与大语言模型生成能力结合的技术框架。它主要解决大语言模型的两个核心问题：知识截止（knowledge cutoff）和幻觉（hallucination）。知识截止指的是模型的知识库可能无法包含最新的信息，而幻觉则是指模型可能会生成不真实或错误的信息。通过引入外部检索，RAG 让模型能够访问最",
+      "ground_truth": "RAG（检索增强生成）是一种将外部知识检索与大语言模型生成能力结合的技术框架，主要解决大语言模型的知识截止和幻觉问题。",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6760347067602511,
+      "context_precision": 0.999999999975,
+      "context_recall": 1.0
+    },
+    {
+      "question": "企业级应用应该选择哪种向量数据库？",
+      "answer": "企业级应用在选择向量数据库时，应考虑以下因素：\n\n1. **性能和扩展性**：确保数据库能够处理大量数据和高并发查询。\n2. **语言支持**：根据企业使用的语言选择支持该语言的数据库。\n3. **成本**：考虑维护和运行成本，包括存储、计算和查询成本。\n4. **易用性和集成**：数据库应易于与企业现有系统集成。\n5. **社区和生态系统**：强大的社区支持和丰富的生态系统可以提供更多资源和工具",
+      "ground_truth": "企业级应用最受欢迎的开源向量数据库选择是 Qdrant 和 Weaviate，选型应考虑数据规模、查询 QPS、元数据过滤需求和部署方式。",
+      "faithfulness": 0.3333333333333333,
+      "answer_relevancy": 0.09102702513569656,
+      "context_precision": 0.3333333333,
+      "context_recall": 0.0
+    },
+    {
+      "question": "中文场景应该选择哪个 Embedding 模型？",
+      "answer": "中文场景应该选择 BGE 系列，特别是 BGE-large-zh-v1.5，因为它是BAAI出品的，中文效果最佳。",
+      "ground_truth": "中文场景强烈推荐 BGE 系列 Embedding 模型，特别是 BGE-large-zh-v1.5，维度为 1024。",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7834102922322023,
+      "context_precision": 0.999999999975,
+      "context_recall": 1.0
+    },
+    {
+      "question": "文档分块时 Chunk Size 一般推荐多少？",
+      "answer": "文档分块时，Chunk Size 一般推荐 256-1024 字符。",
+      "ground_truth": "Chunk Size 一般推荐 256-1024 字符，Overlap 推荐 10%-20%。",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8590667979668151,
+      "context_precision": 0.49999999995,
+      "context_recall": 1.0
+    },
+    {
+      "question": "RAGAS 框架包含哪四个核心评估指标？",
+      "answer": "RAGAS 框架包含以下四个核心评估指标：\n\n1. Faithfulness（忠实度）：衡量生成答案是否忠实于检索到的上下文，检测模型是否产生幻觉。\n2. Answer Relevancy（答案相关性）：衡量答案与问题的相关程度。\n3. Context Precision（上下文精确度）：衡量检索结果中相关文档片段的比例，检查是否有噪声混入。\n4. Context Recall（上下文召回率）：衡",
+      "ground_truth": "RAGAS 四个核心指标是：Faithfulness（忠实度）、Answer Relevancy（答案相关性）、Context Precision（上下文精确度）、Context Recall（上下文召回率）。",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6433055620237037,
+      "context_precision": 0.9166666666361111,
+      "context_recall": 1.0
+    },
+    {
+      "question": "RRF 融合算法的公式是什么？",
+      "answer": "参考资料中并未提及RRF融合算法的公式。因此，无法提供RRF融合算法的公式。如果需要了解RRF（Random Forest with Feature Subsampling）融合算法的公式，建议查阅相关机器学习或数据科学的文献。",
+      "ground_truth": "RRF 的公式为 score = sum(1 / (k + rank))，其中 k 通常为 60。",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question": "HyDE 查询优化技术的原理是什么？",
+      "answer": "HyDE（Hybrid Deep Embedding）查询优化技术的原理是将向量检索和深度学习模型相结合，以提高查询的准确性和效率。具体来说，HyDE的原理包括以下几个方面：\n\n1. **向量检索**：首先，HyDE使用向量检索技术来快速定位与查询相关的文档。向量检索通过将查询和文档转换为向量表示，然后计算它们之间的相似度，从而找到最相关的文档。\n\n2. **深度学习模型**：HyDE结合深度学习",
+      "ground_truth": "HyDE（假设文档嵌入）让 LLM 先根据问题生成一个假设的理想答案，然后用这个假答案去检索真实文档。",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8997639413318643,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question": "生产级 RAG 系统如何实现多租户隔离？",
+      "answer": "生产级 RAG 系统实现多租户隔离通常通过以下方式：\n\n1. **向量数据库的 Collection 级别隔离**：在向量数据库中，可以为每个租户创建一个独立的 Collection（集合），这样每个租户的数据都存储在各自的 Collection 中，从而实现逻辑隔离。\n\n2. **元数据过滤**：通过在检索阶段加入元数据过滤，可以根据租户的标识符或权限信息过滤出对应租户的数据，确保用户只能访问其",
+      "ground_truth": "多租户隔离可以通过向量数据库的 Collection 级别隔离或元数据过滤实现。",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.06602109537601479,
+      "context_precision": 0.8333333332916666,
+      "context_recall": 1.0
+    }
+  ]
+}

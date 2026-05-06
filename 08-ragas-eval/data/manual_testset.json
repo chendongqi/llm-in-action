@@ -1,0 +1,58 @@
+[
+  {
+    "question": "什么是 RAG 技术，它主要解决什么问题？",
+    "ground_truth": "RAG（检索增强生成）是一种将外部知识检索与大语言模型生成能力结合的技术框架，主要解决大语言模型的知识截止和幻觉问题。",
+    "relevant_doc_ids": [
+      "doc-001"
+    ]
+  },
+  {
+    "question": "企业级应用应该选择哪种向量数据库？",
+    "ground_truth": "企业级应用最受欢迎的开源向量数据库选择是 Qdrant 和 Weaviate，选型应考虑数据规模、查询 QPS、元数据过滤需求和部署方式。",
+    "relevant_doc_ids": [
+      "doc-002"
+    ]
+  },
+  {
+    "question": "中文场景应该选择哪个 Embedding 模型？",
+    "ground_truth": "中文场景强烈推荐 BGE 系列 Embedding 模型，特别是 BGE-large-zh-v1.5，维度为 1024。",
+    "relevant_doc_ids": [
+      "doc-003"
+    ]
+  },
+  {
+    "question": "文档分块时 Chunk Size 一般推荐多少？",
+    "ground_truth": "Chunk Size 一般推荐 256-1024 字符，Overlap 推荐 10%-20%。",
+    "relevant_doc_ids": [
+      "doc-004"
+    ]
+  },
+  {
+    "question": "RAGAS 框架包含哪四个核心评估指标？",
+    "ground_truth": "RAGAS 四个核心指标是：Faithfulness（忠实度）、Answer Relevancy（答案相关性）、Context Precision（上下文精确度）、Context Recall（上下文召回率）。",
+    "relevant_doc_ids": [
+      "doc-005"
+    ]
+  },
+  {
+    "question": "RRF 融合算法的公式是什么？",
+    "ground_truth": "RRF 的公式为 score = sum(1 / (k + rank))，其中 k 通常为 60。",
+    "relevant_doc_ids": [
+      "doc-006"
+    ]
+  },
+  {
+    "question": "HyDE 查询优化技术的原理是什么？",
+    "ground_truth": "HyDE（假设文档嵌入）让 LLM 先根据问题生成一个假设的理想答案，然后用这个假答案去检索真实文档。",
+    "relevant_doc_ids": [
+      "doc-007"
+    ]
+  },
+  {
+    "question": "生产级 RAG 系统如何实现多租户隔离？",
+    "ground_truth": "多租户隔离可以通过向量数据库的 Collection 级别隔离或元数据过滤实现。",
+    "relevant_doc_ids": [
+      "doc-008"
+    ]
+  }
+]
