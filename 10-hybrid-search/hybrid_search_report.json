@@ -1,0 +1,50 @@
+[
+  {
+    "query": "BAAI/bge-large-zh-v1.5 维度",
+    "type": "keyword",
+    "relevant_doc_id": "doc-003",
+    "bm25_rr": 1.0,
+    "vector_rr": 0.5,
+    "hybrid_rr": 1.0
+  },
+  {
+    "query": "RRF score sum 1/(k+rank) 公式",
+    "type": "keyword",
+    "relevant_doc_id": "doc-006",
+    "bm25_rr": 1.0,
+    "vector_rr": 0.3333333333333333,
+    "hybrid_rr": 1.0
+  },
+  {
+    "query": "chunk_size 256 1024 overlap 推荐",
+    "type": "keyword",
+    "relevant_doc_id": "doc-004",
+    "bm25_rr": 1.0,
+    "vector_rr": 1.0,
+    "hybrid_rr": 1.0
+  },
+  {
+    "query": "AI 助手总是给出过时的答案，有什么方法让它了解最新信息",
+    "type": "semantic",
+    "relevant_doc_id": "doc-001",
+    "bm25_rr": 0.3333333333333333,
+    "vector_rr": 0.0,
+    "hybrid_rr": 0.25
+  },
+  {
+    "query": "多个团队共用一套问答系统，怎么保证不同团队的资料互相看不到",
+    "type": "semantic",
+    "relevant_doc_id": "doc-008",
+    "bm25_rr": 0.3333333333333333,
+    "vector_rr": 0.0,
+    "hybrid_rr": 0.3333333333333333
+  },
+  {
+    "query": "换一种问法，检索结果就完全不同，怎么解决这种不稳定性",
+    "type": "semantic",
+    "relevant_doc_id": "doc-007",
+    "bm25_rr": 0.0,
+    "vector_rr": 1.0,
+    "hybrid_rr": 0.3333333333333333
+  }
+]
