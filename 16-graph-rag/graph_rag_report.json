@@ -1,0 +1,18 @@
+{
+  "vector_rag": {
+    "context_recall": 0.8125,
+    "context_precision": 0.7291666666286458,
+    "faithfulness": 0.8653846153846154,
+    "answer_relevancy": 0.5362855597124123
+  },
+  "graph_rag": {
+    "context_recall": 0.75,
+    "context_precision": 0.9479166666109375,
+    "faithfulness": 0.8833791208791208,
+    "answer_relevancy": 0.465444160299742
+  },
+  "kg_stats": {
+    "nodes": 176,
+    "edges": 139
+  }
+}
