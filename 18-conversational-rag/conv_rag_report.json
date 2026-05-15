@@ -1,0 +1,15 @@
+{
+  "baseline": {
+    "context_recall": 0.6666666666666666,
+    "context_precision": 0.8796296296030864,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4323899891446499
+  },
+  "conv_rag": {
+    "context_recall": 0.39999999999999997,
+    "context_precision": 0.8703703703441358,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.42973382178880043
+  },
+  "note": "Evaluated on last turn (turn 3) of each 3-turn conversation"
+}

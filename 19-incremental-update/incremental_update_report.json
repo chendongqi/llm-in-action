@@ -1,0 +1,31 @@
+{
+  "initial_index": {
+    "num_docs": 6,
+    "num_added": 6,
+    "num_skipped": 0,
+    "num_deleted": 0,
+    "embed_calls": 6,
+    "elapsed_s": 0.913
+  },
+  "incremental_update": {
+    "num_docs": 7,
+    "num_added": 4,
+    "num_skipped": 3,
+    "num_deleted": 3,
+    "embed_calls": 4,
+    "elapsed_s": 0.891
+  },
+  "full_rebuild": {
+    "num_docs": 7,
+    "num_added": 7,
+    "num_skipped": 0,
+    "num_deleted": 0,
+    "embed_calls": 7,
+    "elapsed_s": 0.494
+  },
+  "savings": {
+    "embed_calls_saved": 3,
+    "embed_savings_pct": 42.9,
+    "time_saved_s": -0.397
+  }
+}

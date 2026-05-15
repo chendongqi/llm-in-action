@@ -1,0 +1,24 @@
+{
+  "always_vector": {
+    "context_recall": 0.611111111111111,
+    "context_precision": 0.6388888888319445,
+    "faithfulness": 0.625,
+    "answer_relevancy": 0.4309087597162753
+  },
+  "agentic_rag": {
+    "context_recall": 0.611111111111111,
+    "context_precision": 0.6805555555027777,
+    "faithfulness": 0.625,
+    "answer_relevancy": 0.4327851403217016
+  },
+  "routing": {
+    "initial_distribution": {
+      "vector": 4,
+      "graph": 2,
+      "direct": 2
+    },
+    "rerouted_count": 4,
+    "total_questions": 8,
+    "direct_count": 2
+  }
+}
