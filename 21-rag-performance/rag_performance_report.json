@@ -1,0 +1,76 @@
+{
+  "llm_cache": {
+    "questions": [
+      {
+        "question": "RAGAS 有哪四个核心指标？",
+        "miss_ms": 1743.4,
+        "hit_ms": 0.7,
+        "speedup_x": 2440.5
+      },
+      {
+        "question": "向量数据库有哪些常见选型？",
+        "miss_ms": 3675.4,
+        "hit_ms": 0.9,
+        "speedup_x": 4125.6
+      },
+      {
+        "question": "什么是 Rerank？",
+        "miss_ms": 9752.5,
+        "hit_ms": 0.9,
+        "speedup_x": 10993.2
+      }
+    ],
+    "avg_miss_ms": 5057.1,
+    "avg_hit_ms": 0.8,
+    "avg_speedup_x": 6068.5
+  },
+  "embedding_cache": {
+    "first_pass": {
+      "time_ms": 285.4,
+      "api_calls": 1,
+      "texts_sent": 8
+    },
+    "second_pass": {
+      "time_ms": 5.7,
+      "api_calls": 0,
+      "texts_sent": 0
+    },
+    "partial_update": {
+      "time_ms": 63.5,
+      "api_calls": 1,
+      "texts_sent": 2,
+      "texts_total": 8,
+      "texts_cached": 6,
+      "texts_new": 2
+    }
+  },
+  "semantic_cache": {
+    "threshold": 0.85,
+    "total_hits": 0,
+    "total_misses": 6,
+    "cases": [
+      {
+        "label": "RAGAS 指标",
+        "original_ms": 3781.8,
+        "similar_hit": false,
+        "similar_ms": 3297.5,
+        "different_hit": false,
+        "different_ms": 2508.9
+      },
+      {
+        "label": "Rerank 作用",
+        "original_ms": 11602.3,
+        "similar_hit": false,
+        "similar_ms": 3834.2,
+        "different_hit": false,
+        "different_ms": 12578.1
+      }
+    ]
+  },
+  "async_batch_embedding": {
+    "num_texts": 12,
+    "sequential_ms": 830.7,
+    "batch_async_ms": 289.3,
+    "speedup_x": 2.87
+  }
+}
