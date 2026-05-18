@@ -1,0 +1,149 @@
+{
+  "scenarios": [
+    {
+      "scenario": "A1: Engineer accesses public info",
+      "tenant": "acme_corp",
+      "user": "alice",
+      "role": "engineer",
+      "question": "ACME Corp 是一家什么类型的公司？",
+      "answer_preview": "ACME Corp 是一家智能制造企业。",
+      "sources": [
+        "company-intro",
+        "robot-spec"
+      ],
+      "cache_hit": false,
+      "rate_limited": false,
+      "docs_retrieved": 2,
+      "elapsed_ms": 995.0
+    },
+    {
+      "scenario": "A2: Engineer accesses engineering doc",
+      "tenant": "acme_corp",
+      "user": "alice",
+      "role": "engineer",
+      "question": "ACME Corp 机器人控制系统用什么通信协议？",
+      "answer_preview": "ACME Corp 机器人控制系统使用的通信协议是EtherCAT实时总线。",
+      "sources": [
+        "company-intro",
+        "robot-spec"
+      ],
+      "cache_hit": false,
+      "rate_limited": false,
+      "docs_retrieved": 2,
+      "elapsed_ms": 1709.2
+    },
+    {
+      "scenario": "B1: Engineer blocked from HR doc",
+      "tenant": "acme_corp",
+      "user": "alice",
+      "role": "engineer",
+      "question": "ACME Corp 的年终奖政策是什么？",
+      "answer_preview": "参考资料中没有提供关于ACME Corp年终奖政策的信息。",
+      "sources": [
+        "company-intro",
+        "robot-spec"
+      ],
+      "cache_hit": false,
+      "rate_limited": false,
+      "docs_retrieved": 2,
+      "elapsed_ms": 904.7
+    },
+    {
+      "scenario": "B2: HR blocked from finance doc",
+      "tenant": "acme_corp",
+      "user": "bob",
+      "role": "hr",
+      "question": "ACME Corp 2025年净利润是多少？",
+      "answer_preview": "参考资料中没有提供ACME Corp 2025年的净利润信息，因此无法回答这个问题。",
+      "sources": [
+        "company-intro",
+        "hr-policy"
+      ],
+      "cache_hit": false,
+      "rate_limited": false,
+      "docs_retrieved": 2,
+      "elapsed_ms": 3742.4
+    },
+    {
+      "scenario": "B3: HR can see HR doc",
+      "tenant": "acme_corp",
+      "user": "bob",
+      "role": "hr",
+      "question": "ACME Corp 的年假天数如何计算？",
+      "answer_preview": "ACME Corp 的年假天数计算方式如下：\n\n- 入职第一年：12天\n- 每满一年：增加2天\n- 上限：20天\n\n具体计算方法是：入职第一年享受12天年假，之后每满一年，年假天数增加2天，直至达到20天的上限。例如，入职第三年，年假为12（第一年）+ 2（第二年）+ 2（第三年）= 16天。",
+      "sources": [
+        "company-intro",
+        "hr-policy"
+      ],
+      "cache_hit": false,
+      "rate_limited": false,
+      "docs_retrieved": 2,
+      "elapsed_ms": 9194.3
+    },
+    {
+      "scenario": "C1: Globex user cannot access Acme docs",
+      "tenant": "globex_corp",
+      "user": "charlie",
+      "role": "admin",
+      "question": "ACME Corp 的员工有多少人？",
+      "answer_preview": "参考资料中没有提供ACME Corp员工人数的信息，因此无法回答这个问题。",
+      "sources": [
+        "products",
+        "company-intro"
+      ],
+      "cache_hit": false,
+      "rate_limited": false,
+      "docs_retrieved": 2,
+      "elapsed_ms": 997.4
+    },
+    {
+      "scenario": "C2: Globex user sees their own docs",
+      "tenant": "globex_corp",
+      "user": "charlie",
+      "role": "admin",
+      "question": "Globex Corp 有哪些产品线？",
+      "answer_preview": "Globex Corp 的产品线包括：\n- GlexCloud：企业私有云平台，支持混合云部署\n- GlexAnalytics：实时数据分析平台，支持TB级数据处理\n- GlexAI：面向企业的AI能力平台，提供NLP、CV、推荐系统服务",
+      "sources": [
+        "company-intro",
+        "products"
+      ],
+      "cache_hit": false,
+      "rate_limited": false,
+      "docs_retrieved": 2,
+      "elapsed_ms": 4532.7
+    },
+    {
+      "scenario": "D: Cache hit on repeated question",
+      "tenant": "acme_corp",
+      "user": "alice",
+      "role": "engineer",
+      "question": "ACME Corp 是一家什么类型的公司？",
+      "cache_hit": true,
+      "elapsed_ms": 0.0
+    },
+    {
+      "scenario": "E: Rate limiting",
+      "user": "rate_test_user",
+      "allowed": 5,
+      "blocked": 2,
+      "rate_limit_config": "5 req/60s"
+    }
+  ],
+  "cache_stats": {
+    "hits": 1,
+    "misses": 12,
+    "hit_rate_pct": 7.7
+  },
+  "rate_limit_stats": {
+    "allowed": 5,
+    "blocked": 2,
+    "config": "5 req/60s"
+  },
+  "access_control_summary": {
+    "engineer_sees_engineering_doc": true,
+    "engineer_blocked_from_hr": false,
+    "hr_blocked_from_finance": false,
+    "hr_sees_hr_doc": true,
+    "cross_tenant_returns_no_results": false
+  }
+}

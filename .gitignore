@@ -1,0 +1,5 @@
+
+# 真实配置（包含敏感 Key）
+.env
+.env.local
+chroma_db
