@@ -1,0 +1,435 @@
+{
+  "repo": {
+    "url": "https://github.com/chendongqi/llm-in-action",
+    "local_path": "/mnt/hdd/Database/03_Projects/LLM/llm-in-action",
+    "py_files": 22,
+    "functions": 188,
+    "methods": 37,
+    "total_units": 225,
+    "ast_extract_s": 0.36,
+    "articles": 18
+  },
+  "call_graph": {
+    "unique_callers": 78,
+    "unique_callees": 92,
+    "total_edges": 168,
+    "top_called": [
+      {
+        "name": "get",
+        "caller_count": 48
+      },
+      {
+        "name": "set",
+        "caller_count": 10
+      },
+      {
+        "name": "split_documents",
+        "caller_count": 5
+      },
+      {
+        "name": "build_embeddings",
+        "caller_count": 4
+      },
+      {
+        "name": "query",
+        "caller_count": 4
+      }
+    ],
+    "top_callers": [
+      {
+        "name": "main",
+        "callee_count": 54
+      },
+      {
+        "name": "build_self_rag_graph",
+        "callee_count": 6
+      },
+      {
+        "name": "build_index",
+        "callee_count": 5
+      },
+      {
+        "name": "build_ragas_dataset",
+        "callee_count": 5
+      },
+      {
+        "name": "build_crag_graph",
+        "callee_count": 5
+      }
+    ]
+  },
+  "call_chain_examples": [
+    {
+      "function": "main",
+      "file": "04-chunking-strategies/chunking_compare.py",
+      "calls_count": 54,
+      "downstream": [
+        "create_ragas_embeddings",
+        "build_contextual_retriever",
+        "build_vectorstore",
+        "build_parent_child_retriever",
+        "print_chunk_preview",
+        "fmt",
+        "strategy_document_structure",
+        "run_evaluation"
+      ],
+      "upstream": []
+    },
+    {
+      "function": "build_self_rag_graph",
+      "file": "14-self-rag/self_rag.py",
+      "calls_count": 6,
+      "downstream": [
+        "make_rag_generate_node",
+        "make_support_node",
+        "make_direct_generate_node",
+        "make_decide_node",
+        "make_filter_node",
+        "make_retrieve_node",
+        "get",
+        "_key"
+      ],
+      "upstream": [
+        "main"
+      ]
+    },
+    {
+      "function": "build_index",
+      "file": "08-ragas-eval/rag_pipeline.py",
+      "calls_count": 5,
+      "downstream": [
+        "split_documents",
+        "load_documents",
+        "build_llm",
+        "get",
+        "build_embeddings",
+        "_get_default_base_url",
+        "_get_extra_headers",
+        "_key"
+      ],
+      "upstream": [
+        "main"
+      ]
+    }
+  ],
+  "path_examples": [
+    {
+      "from": "main",
+      "to": "get",
+      "path": [
+        "main",
+        "get"
+      ]
+    }
+  ],
+  "semantic_search": [
+    {
+      "query": "embedding caching to reduce API calls",
+      "results": [
+        {
+          "score": 0.227,
+          "name": "run_vector_rag",
+          "file": "16-graph-rag/graph_rag.py",
+          "start_line": 368,
+          "kind": "function",
+          "snippet": "run_vector_rag: def run_vector_rag(question: str) -> dict[str, Any]:"
+        },
+        {
+          "score": 0.207,
+          "name": "parse_query",
+          "file": "07-retrieval-strategies/retrieval_strategies.py",
+          "start_line": 78,
+          "kind": "function",
+          "snippet": "parse_query: 解析自然语言查询，提取语义查询和元数据过滤条件。 生产环境中可用 LLM（如 SelfQueryRetriever）替代此规则解析。"
+        },
+        {
+          "score": 0.202,
+          "name": "format_context",
+          "file": "13-query-optimization/query_optimization.py",
+          "start_line": 154,
+          "kind": "function",
+          "snippet": "format_context: def format_context(docs: list[Document]) -> str:"
+        }
+      ]
+    },
+    {
+      "query": "RAGAS evaluation metrics calculation",
+      "results": [
+        {
+          "score": 0.488,
+          "name": "build_index",
+          "file": "08-ragas-eval/rag_pipeline.py",
+          "start_line": 95,
+          "kind": "method",
+          "snippet": "RAGPipeline.build_index: 构建或加载向量索引"
+        },
+        {
+          "score": 0.476,
+          "name": "create_ragas_embeddings",
+          "file": "08-ragas-eval/evaluate.py",
+          "start_line": 50,
+          "kind": "function",
+          "snippet": "create_ragas_embeddings: 创建 RAGAS 所需的 Embeddings Wrapper"
+        },
+        {
+          "score": 0.467,
+          "name": "query",
+          "file": "08-ragas-eval/rag_pipeline.py",
+          "start_line": 141,
+          "kind": "method",
+          "snippet": "RAGPipeline.query: 执行 RAG 查询，返回答案和检索上下文"
+        }
+      ]
+    },
+    {
+      "query": "rate limiting and access control in enterprise RAG",
+      "results": [
+        {
+          "score": 0.504,
+          "name": "__init__",
+          "file": "08-ragas-eval/rag_pipeline.py",
+          "start_line": 78,
+          "kind": "method",
+          "snippet": "RAGPipeline.__init__:     def __init__("
+        },
+        {
+          "score": 0.504,
+          "name": "__init__",
+          "file": "09-rag-diagnosis/rag_pipeline.py",
+          "start_line": 103,
+          "kind": "method",
+          "snippet": "RAGPipeline.__init__:     def __init__("
+        },
+        {
+          "score": 0.479,
+          "name": "evaluate_node",
+          "file": "17-agentic-rag/agentic_rag.py",
+          "start_line": 382,
+          "kind": "function",
+          "snippet": "evaluate_node: def evaluate_node(state: AgenticRAGState) -> AgenticRAGState:"
+        }
+      ]
+    },
+    {
+      "query": "incremental document indexing with record manager",
+      "results": [
+        {
+          "score": 0.296,
+          "name": "generate_testset",
+          "file": "08-ragas-eval/generate_qa.py",
+          "start_line": 51,
+          "kind": "function",
+          "snippet": "generate_testset: 基于知识库自动生成测试集"
+        },
+        {
+          "score": 0.287,
+          "name": "upstream",
+          "file": "24-code-rag/code_rag.py",
+          "start_line": 157,
+          "kind": "method",
+          "snippet": "CallGraph.upstream: All functions that transitively call `name`."
+        },
+        {
+          "score": 0.282,
+          "name": "generate_qa_for_doc",
+          "file": "08-ragas-eval/generate_qa.py",
+          "start_line": 34,
+          "kind": "function",
+          "snippet": "generate_qa_for_doc: 为单个文档生成 QA 对"
+        }
+      ]
+    },
+    {
+      "query": "conversational history aware retriever",
+      "results": [
+        {
+          "score": 0.4,
+          "name": "make_ds",
+          "file": "18-conversational-rag/conversational_rag.py",
+          "start_line": 428,
+          "kind": "function",
+          "snippet": "make_ds:     def make_ds(data):"
+        },
+        {
+          "score": 0.4,
+          "name": "chinese_tokenizer",
+          "file": "10-hybrid-search/hybrid_search.py",
+          "start_line": 87,
+          "kind": "function",
+          "snippet": "chinese_tokenizer: jieba 中文分词，用于 BM25"
+        },
+        {
+          "score": 0.389,
+          "name": "rank_label",
+          "file": "10-hybrid-search/hybrid_search.py",
+          "start_line": 173,
+          "kind": "function",
+          "snippet": "rank_label:         def rank_label(docs, rel):"
+        }
+      ]
+    }
+  ],
+  "llm_qa": [
+    {
+      "question": "这个代码库中的 Embedding 缓存是如何实现的？用了哪些类和存储后端？",
+      "answer": "根据提供的代码片段，代码库中并没有直接展示 Embedding 缓存的实现细节。以下是一些可能的推测：\n\n1. **类和存储后端推测**:\n   - `vectorstore.as_retriever()` 函数可能用于创建一个检索器，该检索器可能负责加载和缓存 Embeddings。`vectorstore` 类可能包含缓存逻辑。\n   - 缓存可能使用内存中的数据结构（如字典）或外部存储后端（如数据库或文件系统）。\n\n2. **可能的实现方式**:\n   - **内存缓存**: `vectorstore` 类可能包含一个字典，用于存储和检索 Embeddings。例如，`self.embeddings_cache`。\n   - **文件系统缓存**: Embeddings 可能被序列化并存储在文件中，当需要时再加载到内存中。\n   - **数据库缓存**: 如果使用数据库，可能通过 SQL 查询来缓存和检索 Embeddings。\n\n由于代码片段中没有直接提及具体的缓存实现，以下是一些可能涉及的类和文件路径：\n\n- **类**: `vectorstore`, `Document`, `EmbeddingCache`\n- **文件路径**: `embeddings_cache.json`, `embeddings.db`, `embeddings.pkl`\n\n请注意，这些只是基于代码片段的推测，实际的缓存实现可能有所不同。",
+      "latency_ms": 15147,
+      "sources": [
+        {
+          "file": "13-query-optimization/query_optimization.py",
+          "name": "retrieve_multi_query"
+        },
+        {
+          "file": "02-langchain-basic/rag_pipeline.py",
+          "name": "format_docs"
+        },
+        {
+          "file": "13-query-optimization/query_optimization.py",
+          "name": "retrieve_decomposed"
+        },
+        {
+          "file": "04-chunking-strategies/chunking_compare.py",
+          "name": "load_markdown_as_documents"
+        }
+      ]
+    },
+    {
+      "question": "RAGAS 评测框架是如何集成的？评测哪几个指标，分别在哪个文件？",
+      "answer": "RAGAS 评测框架的集成和评测指标如下：\n\n1. **集成方式**：\n   - 评测框架可能通过一个专门的函数或类进行集成，例如 `evaluate_ragas` 或 `RAGASEvaluator` 类。\n   - 该框架通常会在 `evaluate.py` 或类似的文件中实现。\n\n2. **评测指标**：\n   - **准确率（Accuracy）**：通常在 `evaluate.py` 文件中通过 `calculate_accuracy` 函数计算。\n   - **召回率（Recall）**：同样在 `evaluate.py` 文件中通过 `calculate_recall` 函数计算。\n   - **F1 分数（F1 Score）**：结合准确率和召回率，通过 `calculate_f1_score` 函数计算。\n   - **ROUGE 指标**：用于评估生成的答案与真实答案的相似度，可能在 `rouge_evaluation.py` 文件中实现。\n\n3. **文件位置**：\n   - `evaluate.py`：包含准确率、召回率和 F1 分数的计算。\n   - `rouge_evaluation.py`：包含 ROUGE 指标的计算。\n\n请注意，具体的文件名和函数名可能因项目而异，以上仅为一般性的说明。",
+      "latency_ms": 15886,
+      "sources": [
+        {
+          "file": "04-chunking-strategies/chunking_compare.py",
+          "name": "strategy_document_structure"
+        },
+        {
+          "file": "08-ragas-eval/evaluate.py",
+          "name": "prepare_dataset"
+        },
+        {
+          "file": "02-langchain-basic/rag_pipeline.py",
+          "name": "build_rag_chain"
+        },
+        {
+          "file": "04-chunking-strategies/chunking_compare.py",
+          "name": "strategy_recursive"
+        }
+      ]
+    },
+    {
+      "question": "企业级 RAG 的多租户隔离机制是什么？如何实现按角色的访问控制？",
+      "answer": "企业级 RAG（Retrieval-Augmented Generation）的多租户隔离机制通常涉及以下几个方面：\n\n1. **数据隔离**：确保每个租户的数据（如文档、用户信息等）与其他租户的数据分开存储和管理。这可以通过数据库的分区、隔离的数据库实例或使用容器化技术（如Kubernetes）来实现。\n\n2. **访问控制**：根据租户的角色和权限来控制对数据的访问。这通常涉及到身份验证和授权机制。\n\n以下是如何实现按角色的访问控制的一些方法：\n\n- **身份验证**：确保只有经过验证的用户才能访问系统。可以使用OAuth 2.0、OpenID Connect等标准协议。\n\n- **角色基础访问控制（RBAC）**：定义不同的角色，并为每个角色分配权限。例如，可以创建“管理员”、“编辑”和“读者”等角色，并为每个角色指定可以访问的数据和功能。\n\n- **访问控制列表（ACL）**：为每个资源（如文档）指定可以访问该资源的用户或角色。\n\n- **代码实现示例**：\n\n```python\n# 假设有一个函数来检查用户是否有权限执行某个操作\ndef has_permission(user_role, action):\n    # 这里可以根据实际的角色和操作定义权限规则\n    if user_role == \"admin\":\n        return True\n    elif user_role == \"editor\":\n        return action in [\"read\", \"write\"]\n    elif user_role == \"reader\":\n        return action == \"read\"\n    return False\n\n# 检查用户是否有权限检索文档\ndef retrieve_document(user_role, document_id):\n    if has_permission(user_role, \"retrieve\"):\n        # 检索文档的逻辑\n        pass\n    else:\n        raise PermissionError(\"没有足够的权限检索该文档\")\n```\n\n在上述代码中，`has_permission` 函数根据用户的角色和请求的操作来决定是否允许执行该操作。`retrieve_document` 函数则使用这个权限检查来决定是否允许检索文档。\n\n请注意，实际的企业级系统会更加复杂，可能需要结合多种技术和策略来实现多租户隔离和按角色访问控制。",
+      "latency_ms": 25939,
+      "sources": [
+        {
+          "file": "14-self-rag/self_rag.py",
+          "name": "direct_generate"
+        },
+        {
+          "file": "02-langchain-basic/rag_pipeline.py",
+          "name": "query"
+        },
+        {
+          "file": "15-crag/crag.py",
+          "name": "generate"
+        },
+        {
+          "file": "14-self-rag/self_rag.py",
+          "name": "retrieve"
+        }
+      ]
+    }
+  ],
+  "per_article": {
+    "02-langchain-basic": {
+      "files": 1,
+      "functions": 11,
+      "methods": 0
+    },
+    "04-chunking-strategies": {
+      "files": 1,
+      "functions": 14,
+      "methods": 1
+    },
+    "07-retrieval-strategies": {
+      "files": 1,
+      "functions": 7,
+      "methods": 0
+    },
+    "08-ragas-eval": {
+      "files": 4,
+      "functions": 18,
+      "methods": 5
+    },
+    "09-rag-diagnosis": {
+      "files": 2,
+      "functions": 10,
+      "methods": 4
+    },
+    "10-hybrid-search": {
+      "files": 1,
+      "functions": 12,
+      "methods": 0
+    },
+    "11-rerank": {
+      "files": 1,
+      "functions": 10,
+      "methods": 1
+    },
+    "12-advanced-chunking": {
+      "files": 1,
+      "functions": 14,
+      "methods": 0
+    },
+    "13-query-optimization": {
+      "files": 1,
+      "functions": 16,
+      "methods": 0
+    },
+    "14-self-rag": {
+      "files": 1,
+      "functions": 23,
+      "methods": 0
+    },
+    "15-crag": {
+      "files": 1,
+      "functions": 20,
+      "methods": 0
+    },
+    "16-graph-rag": {
+      "files": 1,
+      "functions": 7,
+      "methods": 0
+    },
+    "17-agentic-rag": {
+      "files": 1,
+      "functions": 11,
+      "methods": 0
+    },
+    "18-conversational-rag": {
+      "files": 1,
+      "functions": 3,
+      "methods": 0
+    },
+    "19-incremental-update": {
+      "files": 1,
+      "functions": 1,
+      "methods": 4
+    },
+    "20-enterprise-rag": {
+      "files": 1,
+      "functions": 4,
+      "methods": 7
+    },
+    "21-rag-performance": {
+      "files": 1,
+      "functions": 2,
+      "methods": 6
+    },
+    "24-code-rag": {
+      "files": 1,
+      "functions": 5,
+      "methods": 9
+    }
+  }
+}
