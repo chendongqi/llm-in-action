@@ -20,6 +20,7 @@ Agent 系列第二篇：ReAct — Reasoning + Acting Loop
 """
 
 import ast
+import json
 import operator
 import os
 from typing import Any
@@ -31,7 +32,9 @@ from dotenv import load_dotenv
 from langchain_core.messages import AIMessage, HumanMessage, ToolMessage
 from langchain_core.tools import tool
 from langchain_openai import ChatOpenAI
-from langgraph.prebuilt import create_react_agent
+# LangGraph V1.0 将 create_react_agent 迁移到了 chat_agent_executor 子模块
+# 从这里导入可避免 deprecation warning
+from langgraph.prebuilt.chat_agent_executor import create_react_agent
 
 load_dotenv()
 
@@ -172,6 +175,26 @@ def build_agent():
 
 # ─── Trace 可视化 ──────────────────────────────────────────────────────────────
 
+def _clean_thought(text: str) -> str:
+    """过滤 GLM-4-Flash 等模型偶尔泄漏到 content 字段的原始 API JSON。
+
+    症状：content 以 '{"index":' 或 '[{"' 开头，是模型内部 streaming delta 数据。
+    处理：检测到 JSON 泄漏则返回空字符串，避免污染 Trace 输出。
+    """
+    stripped = text.strip()
+    if not stripped:
+        return ""
+    # 快速判断是否以 JSON 对象/数组开头
+    if stripped[0] in ("{", "["):
+        try:
+            json.loads(stripped)
+            # 能成功解析为 JSON → 是泄漏的原始数据，丢弃
+            return ""
+        except json.JSONDecodeError:
+            pass
+    return text
+
+
 def print_trace(result: dict, title: str = "") -> None:
     """把 Agent 的消息序列打印成可读的 Thought/Action/Observation 格式。"""
     sep = "─" * 60
@@ -189,6 +212,9 @@ def print_trace(result: dict, title: str = "") -> None:
         elif isinstance(msg, AIMessage):
             # msg.content 在新版 langchain 中可能是 str 或 list[...]
             content_text = msg.content if isinstance(msg.content, str) else ""
+            # GLM-4-Flash 偶尔会把原始 streaming JSON 泄漏到 content 字段
+            # 如果 content 是 JSON 对象则清空，只保留纯文本 thought
+            content_text = _clean_thought(content_text)
             if msg.tool_calls:
                 # 模型决定调用工具（Thought + Action）
                 step += 1
