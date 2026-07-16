@@ -1,0 +1,5 @@
+langchain-openai>=0.2.0
+langchain-core>=0.3.0
+langgraph>=0.2.0
+deepeval>=0.21.0
+python-dotenv>=1.0.0
