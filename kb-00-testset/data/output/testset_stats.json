@@ -1,0 +1,8 @@
+{
+  "total": 89,
+  "single_hop": 50,
+  "multi_hop": 20,
+  "boundary": 19,
+  "source_docs_count": 30,
+  "llm_model": "glm-4-flash"
+}
