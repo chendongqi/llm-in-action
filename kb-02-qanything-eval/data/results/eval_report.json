@@ -1,0 +1,15 @@
+{
+  "framework": "QAnything",
+  "version": "v2.0",
+  "llm_model": "glm-4-flash",
+  "total_questions": 89,
+  "boundary_refusal_rate": 0.263,
+  "p90_latency_ms": 52233.3,
+  "avg_latency_ms": 40518.9,
+  "answer_match_by_type": {
+    "single_hop": 0.111,
+    "multi_hop": 0.162,
+    "boundary": 0.034
+  },
+  "note": "answer_match uses keyword overlap (Jaccard), not LLM judge"
+}

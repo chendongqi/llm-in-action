@@ -1,0 +1,4846 @@
+{
+  "doc-0aafeecd87977e0b223226d601274fda": {
+    "relation_pairs": [
+      [
+        "Asymmetric Embedding Configuration",
+        "LightRAG"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1786005874,
+    "update_time": 1786005874,
+    "_id": "doc-0aafeecd87977e0b223226d601274fda"
+  },
+  "doc-8b9291b4c9b5aad9fbc21176a5512b06": {
+    "relation_pairs": [
+      [
+        ".env",
+        "LightRAG"
+      ],
+      [
+        ".env",
+        "chown"
+      ],
+      [
+        "Apache AGE",
+        "gzdaniel/postgres-for-rag:pg18-age-pgvector"
+      ],
+      [
+        "Asymmetric Embedding Configuration",
+        "LightRAG"
+      ],
+      [
+        "BAAI/bge-m3",
+        "local vLLM server"
+      ],
+      [
+        "BuildKit",
+        "Dockerfile"
+      ],
+      [
+        "CIS 4.1",
+        "scanners"
+      ],
+      [
+        "CIS Docker Benchmark 4.1",
+        "LightRAG"
+      ],
+      [
+        "CUDA",
+        "NVIDIA Container Toolkit"
+      ],
+      [
+        "CUDA drivers",
+        "NVIDIA Container Toolkit"
+      ],
+      [
+        "Container security (non-root)",
+        "LightRAG"
+      ],
+      [
+        "Docker",
+        "LightRAG"
+      ],
+      [
+        "Dockerfile",
+        "LightRAG"
+      ],
+      [
+        "EMBEDDING_ASYMMETRIC",
+        "LightRAG"
+      ],
+      [
+        "EMBEDDING_BINDING",
+        "LightRAG"
+      ],
+      [
+        "EMBEDDING_BINDING_HOST",
+        "LightRAG"
+      ],
+      [
+        "EMBEDDING_DIM",
+        "LightRAG"
+      ],
+      [
+        "EMBEDDING_DOCUMENT_PREFIX",
+        "LightRAG"
+      ],
+      [
+        "EMBEDDING_MODEL",
+        "LightRAG"
+      ],
+      [
+        "EMBEDDING_QUERY_PREFIX",
+        "LightRAG"
+      ],
+      [
+        "Embedding Configuration",
+        "LightRAG"
+      ],
+      [
+        "GPU hosts",
+        "docker-compose.override.yml"
+      ],
+      [
+        "GPU hosts",
+        "nvidia"
+      ],
+      [
+        "GPU image",
+        "setup wizard"
+      ],
+      [
+        "Interactive setup",
+        "LightRAG"
+      ],
+      [
+        "LLM Configuration",
+        "LightRAG"
+      ],
+      [
+        "LightRAG",
+        "MAX_ASYNC_LLM"
+      ],
+      [
+        "LightRAG",
+        "MAX_TOKENS"
+      ],
+      [
+        "LightRAG",
+        "MINIO_ACCESS_KEY_ID"
+      ],
+      [
+        "LightRAG",
+        "MINIO_SECRET_ACCESS_KEY"
+      ],
+      [
+        "LightRAG",
+        "RAG Configuration"
+      ],
+      [
+        "LightRAG",
+        "Server Configuration"
+      ],
+      [
+        "LightRAG",
+        "docker-compose"
+      ],
+      [
+        "LightRAG",
+        "docker-compose.final.yml"
+      ],
+      [
+        "LightRAG",
+        "docker-compose.final.yml.up"
+      ],
+      [
+        "LightRAG",
+        "docker-compose.up"
+      ],
+      [
+        "LightRAG",
+        "gosu"
+      ],
+      [
+        "LightRAG",
+        "postgres"
+      ],
+      [
+        "PGGraphStorage",
+        "gzdaniel/postgres-for-rag:pg18-age-pgvector"
+      ],
+      [
+        "PGVectorStorage",
+        "gzdaniel/postgres-for-rag:pg18-age-pgvector"
+      ],
+      [
+        "POSTGRES_DB",
+        "gzdaniel/postgres-for-rag:pg18-age-pgvector"
+      ],
+      [
+        "POSTGRES_PASSWORD",
+        "gzdaniel/postgres-for-rag:pg18-age-pgvector"
+      ],
+      [
+        "POSTGRES_USER",
+        "gzdaniel/postgres-for-rag:pg18-age-pgvector"
+      ],
+      [
+        "TLS certificate files",
+        "compose file"
+      ],
+      [
+        "TLS certificate files",
+        "setup wizard"
+      ],
+      [
+        "USER directive",
+        "official PostgreSQL/Redis images"
+      ],
+      [
+        "VLLM_EMBED_DEVICE",
+        "VLLM_RERANK_DEVICE"
+      ],
+      [
+        "VLLM_EMBED_DEVICE",
+        "cuda device"
+      ],
+      [
+        "VLLM_EMBED_DEVICE",
+        "make env-base"
+      ],
+      [
+        "VLLM_RERANK_DEVICE",
+        "cuda device"
+      ],
+      [
+        "VLLM_RERANK_DEVICE",
+        "make env-base"
+      ],
+      [
+        "cohere",
+        "vllm-rerank"
+      ],
+      [
+        "cohere binding",
+        "vLLM"
+      ],
+      [
+        "cpu device",
+        "setup wizard"
+      ],
+      [
+        "cuda device",
+        "setup wizard"
+      ],
+      [
+        "docker run ghcr.io/hkuds/lightrag:latest --port 9622",
+        "server flags"
+      ],
+      [
+        "docker run ghcr.io/hkuds/lightrag:latest --port 9622",
+        "uid 1000"
+      ],
+      [
+        "docker-compose.final.yml",
+        "gzdaniel/postgres-for-rag:pg18-age-pgvector"
+      ],
+      [
+        "drops privileges at runtime",
+        "image starts as root"
+      ],
+      [
+        "gzdaniel/postgres-for-rag:pg18-age-pgvector",
+        "pgvector"
+      ],
+      [
+        "gzdaniel/postgres-for-rag:pg18-age-pgvector",
+        "pgvector/pgvector:pg18"
+      ],
+      [
+        "gzdaniel/postgres-for-rag:pg18-age-pgvector",
+        "rag"
+      ],
+      [
+        "image starts as root",
+        "root"
+      ],
+      [
+        "make env-base",
+        "vLLM"
+      ],
+      [
+        "non-root running process",
+        "root"
+      ],
+      [
+        "v1/rerank endpoint",
+        "vLLM"
+      ]
+    ],
+    "count": 66,
+    "create_time": 1786006098,
+    "update_time": 1786006098,
+    "_id": "doc-8b9291b4c9b5aad9fbc21176a5512b06"
+  },
+  "doc-1df1634555d20a3b0378d0dc58979df0": {
+    "relation_pairs": [
+      [
+        "/documents/{doc_id}",
+        "old document"
+      ],
+      [
+        "CHUNK_P_REFERENCES_HEADINGS",
+        "CHUNK_P_REFERENCES_TAIL_N"
+      ],
+      [
+        "Classification decision",
+        "Read–decide–write combination"
+      ],
+      [
+        "DOCLING_ENDPOINT",
+        "matches"
+      ],
+      [
+        "DOCLING_ENGINE_VERSION",
+        "matches"
+      ],
+      [
+        "Filename hints",
+        "have higher priority than"
+      ],
+      [
+        "If a given document contains no images/tables/equations",
+        "the corresponding sidecar is not written"
+      ],
+      [
+        "If the engine specified in a hint does not support that extension",
+        "the system falls back to the default rules"
+      ],
+      [
+        "LIGHTRAG_PARSER",
+        "parse_engine"
+      ],
+      [
+        "LightRAG",
+        "handles"
+      ],
+      [
+        "LightRAG",
+        "mandates"
+      ],
+      [
+        "LightRAG Document",
+        "includes"
+      ],
+      [
+        "LightRAG Document",
+        "supports"
+      ],
+      [
+        "LightRAG Server",
+        "introduces"
+      ],
+      [
+        "LightRAG Server deployment and use",
+        "includes"
+      ],
+      [
+        "LightRAG document processing pipeline",
+        "MinerU"
+      ],
+      [
+        "LightRAG's file processing pipeline",
+        "supports"
+      ],
+      [
+        "LightRAG's file processing pipeline",
+        "version v1.5.0"
+      ],
+      [
+        "MINERU_API_MODE",
+        "MINERU_PAGE_RANGES"
+      ],
+      [
+        "MINERU_PAGE_RANGES",
+        "page_range"
+      ],
+      [
+        "Main JSON",
+        "has"
+      ],
+      [
+        "MinerU service",
+        "writes"
+      ],
+      [
+        "Paragraph / Paragraph Semantic Chunking",
+        "splits by heading first"
+      ],
+      [
+        "Read–decide–write combination",
+        "Scan"
+      ],
+      [
+        "SDK path",
+        "ainsert"
+      ],
+      [
+        "SDK path",
+        "allows"
+      ],
+      [
+        "SDK path",
+        "apipeline_enqueue_documents"
+      ],
+      [
+        "SDK path",
+        "calls"
+      ],
+      [
+        "SDK path",
+        "insert"
+      ],
+      [
+        "SemanticChunker",
+        "has no chunk size cap"
+      ],
+      [
+        "Sentence Splitting Regex",
+        "recognizes"
+      ],
+      [
+        "SidecarWriter",
+        "writes"
+      ],
+      [
+        "Simply tweaking the `i`/`t`/`e` options",
+        "can complete VLM later without re-parsing the original file"
+      ],
+      [
+        "The global multimodal switch",
+        "is deprecated"
+      ],
+      [
+        "This chunking method can only be applied to",
+        "lightrag content stored in the sidecar directory"
+      ],
+      [
+        "When a wildcard rule matches a certain extension",
+        "the engine must pass two usability checks"
+      ],
+      [
+        "When the body under the same heading is too long",
+        "falls back to R"
+      ],
+      [
+        "Word 2013",
+        "ids"
+      ],
+      [
+        "`/documents/scan",
+        "emits"
+      ],
+      [
+        "`/documents/scan",
+        "prefers"
+      ],
+      [
+        "`/documents/scan",
+        "processes"
+      ],
+      [
+        "`/documents/scan",
+        "treats"
+      ],
+      [
+        "`clear_documents",
+        "deletes"
+      ],
+      [
+        "`i`/`t`/`e` options",
+        "determine"
+      ],
+      [
+        "adapter",
+        "interacts with"
+      ],
+      [
+        "adapter",
+        "regenerates"
+      ],
+      [
+        "adapter upgrade scenarios",
+        "invokes"
+      ],
+      [
+        "adapter upgrade scenarios",
+        "regenerates"
+      ],
+      [
+        "allowed during",
+        "concurrent uploads"
+      ],
+      [
+        "analysis result directory",
+        "canonicalized filename"
+      ],
+      [
+        "apipeline_enqueue_documents",
+        "reprocess_existing_non_processed"
+      ],
+      [
+        "archive / resume / delete stub then re-enqueue",
+        "processing loop"
+      ],
+      [
+        "archived",
+        "filename"
+      ],
+      [
+        "background task",
+        "classification stage"
+      ],
+      [
+        "background task",
+        "processing stage"
+      ],
+      [
+        "basename",
+        "file_source"
+      ],
+      [
+        "bg task",
+        "picked up by"
+      ],
+      [
+        "binds",
+        "mineru-api"
+      ],
+      [
+        "can be uploaded during",
+        "new documents"
+      ],
+      [
+        "canonical_basename",
+        "file_path"
+      ],
+      [
+        "check duplicates against",
+        "file-upload / file-parse enqueue / text APIs"
+      ],
+      [
+        "chunk_options",
+        "process_options"
+      ],
+      [
+        "chunk_options",
+        "process_single_document"
+      ],
+      [
+        "common combination examples",
+        "includes"
+      ],
+      [
+        "config",
+        "docker compose"
+      ],
+      [
+        "configuration",
+        "fixes"
+      ],
+      [
+        "configuration syntax",
+        "includes"
+      ],
+      [
+        "consistency check",
+        "preserves"
+      ],
+      [
+        "contains",
+        "document content"
+      ],
+      [
+        "content",
+        "parse_format"
+      ],
+      [
+        "content extraction engine",
+        "includes"
+      ],
+      [
+        "content_hash",
+        "cross-filename deduplication"
+      ],
+      [
+        "determines",
+        "document content"
+      ],
+      [
+        "docker compose",
+        "project"
+      ],
+      [
+        "docker compose",
+        "secret"
+      ],
+      [
+        "docker compose",
+        "volume"
+      ],
+      [
+        "docling",
+        "force_ocr"
+      ],
+      [
+        "docling",
+        "parsed__ directory"
+      ],
+      [
+        "document",
+        "has"
+      ],
+      [
+        "drawings.json",
+        "saves"
+      ],
+      [
+        "engine token",
+        "parse_engine"
+      ],
+      [
+        "equations.json",
+        "saves"
+      ],
+      [
+        "exclusive subset",
+        "is true during"
+      ],
+      [
+        "exclusive writer",
+        "must not interleave with"
+      ],
+      [
+        "extraction-error stub",
+        "is written by"
+      ],
+      [
+        "fenced code blocks",
+        "md"
+      ],
+      [
+        "file processing configuration",
+        "includes"
+      ],
+      [
+        "file_paths",
+        "unknown_source"
+      ],
+      [
+        "finds",
+        "scanning"
+      ],
+      [
+        "flag",
+        "is set during"
+      ],
+      [
+        "full_docs",
+        "original file"
+      ],
+      [
+        "get_doc_by_content_hash",
+        "storage backend"
+      ],
+      [
+        "get_doc_by_file_basename",
+        "storage backend"
+      ],
+      [
+        "includes",
+        "processing options"
+      ],
+      [
+        "includes",
+        "quick-start configuration"
+      ],
+      [
+        "is a bypass for",
+        "scan's own background-task enqueue"
+      ],
+      [
+        "language",
+        "mineru"
+      ],
+      [
+        "lighrag_document_path",
+        "parse_format"
+      ],
+      [
+        "local_parse_method",
+        "mineru"
+      ],
+      [
+        "local_pm",
+        "mineru"
+      ],
+      [
+        "matches",
+        "options_signature"
+      ],
+      [
+        "md",
+        "native engine"
+      ],
+      [
+        "mineru",
+        "parse_engine"
+      ],
+      [
+        "mineru",
+        "parsed__ directory"
+      ],
+      [
+        "mineru-api",
+        "runs"
+      ],
+      [
+        "mineru-api",
+        "sets"
+      ],
+      [
+        "mineru-api",
+        "uses"
+      ],
+      [
+        "must provide a valid",
+        "text APIs"
+      ],
+      [
+        "my-memo.[native-R!].docx",
+        "uses"
+      ],
+      [
+        "my-proposal.[native-iet].docx",
+        "uses"
+      ],
+      [
+        "native",
+        "parsed__ directory"
+      ],
+      [
+        "non-PROCESSED",
+        "old records"
+      ],
+      [
+        "original file",
+        "parsed__ directory"
+      ],
+      [
+        "paper.<mineru(page_range=1-3,language=en,local_parse_method=ocr)>.<pdf>",
+        "scan.<docling(force_ocr=true)>.<pdf>"
+      ],
+      [
+        "parse_engine",
+        "process_options"
+      ],
+      [
+        "parse_engine",
+        "source_path"
+      ],
+      [
+        "pending enqueues",
+        "used by"
+      ],
+      [
+        "pipeline",
+        "serializes"
+      ],
+      [
+        "processing loop",
+        "resume rules"
+      ],
+      [
+        "rejects when",
+        "scan endpoint"
+      ],
+      [
+        "request pending",
+        "sets by"
+      ],
+      [
+        "saves",
+        "tables.json"
+      ]
+    ],
+    "count": 122,
+    "create_time": 1786006788,
+    "update_time": 1786006788,
+    "_id": "doc-1df1634555d20a3b0378d0dc58979df0"
+  },
+  "doc-e6feded9a78d192aeef37c71e96361d4": {
+    "relation_pairs": [
+      [
+        "Bun",
+        "LightRAG"
+      ],
+      [
+        "Bun",
+        "lightrag/api/webui/"
+      ],
+      [
+        "Bun",
+        "npm"
+      ],
+      [
+        "Bun",
+        "yarn"
+      ],
+      [
+        "CI/CD",
+        "GitHub issue"
+      ],
+      [
+        "Git",
+        "GitHub issue"
+      ],
+      [
+        "Git Repository",
+        "LightRAG"
+      ],
+      [
+        "GitHub Actions",
+        "GitHub issue"
+      ],
+      [
+        "LightRAG",
+        "Node.js/npm"
+      ],
+      [
+        "LightRAG",
+        "PyPI Package"
+      ],
+      [
+        "LightRAG",
+        "React"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1786006905,
+    "update_time": 1786006905,
+    "_id": "doc-e6feded9a78d192aeef37c71e96361d4"
+  },
+  "doc-8b4d4a34c28646786713dd9d097373d4": {
+    "relation_pairs": [
+      [
+        ".env",
+        "LightRAG"
+      ],
+      [
+        "Docker deployment",
+        "docker compose -f docker-compose.final.yml up -d"
+      ],
+      [
+        "Docker deployment",
+        "interactive wizard"
+      ],
+      [
+        "Docker deployment",
+        "make env-base"
+      ],
+      [
+        "Docker deployment",
+        "make env-security-check"
+      ],
+      [
+        "Docker deployment",
+        "make env-server"
+      ],
+      [
+        "Docker deployment",
+        "make env-storage"
+      ],
+      [
+        "Docker-managed storage services",
+        "docker-compose.final.yml"
+      ],
+      [
+        "Interactive Setup Wizard",
+        "LightRAG"
+      ],
+      [
+        "MONGO_URI",
+        "MongoVectorDBStorage"
+      ],
+      [
+        "MONGO_URI",
+        "external MongoDB endpoint"
+      ],
+      [
+        "MongoDB Atlas Local",
+        "MongoVectorDBStorage"
+      ],
+      [
+        "MongoVectorDBStorage",
+        "external MongoDB endpoint"
+      ],
+      [
+        "SSL",
+        "make env-security-check"
+      ],
+      [
+        "base setup",
+        "make env-base"
+      ],
+      [
+        "env-base",
+        "make"
+      ],
+      [
+        "env-server",
+        "make"
+      ],
+      [
+        "env-storage",
+        "make"
+      ],
+      [
+        "exposure",
+        "make env-security-check"
+      ],
+      [
+        "make env-storage",
+        "storage"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1786007137,
+    "update_time": 1786007137,
+    "_id": "doc-8b4d4a34c28646786713dd9d097373d4"
+  },
+  "doc-497eef1a84c2e1267fe9ef217a5f0106": {
+    "relation_pairs": [
+      [
+        "!",
+        "staged document pipeline"
+      ],
+      [
+        ".env file",
+        "LightRAG instances"
+      ],
+      [
+        "/documents/scan",
+        "staged document pipeline"
+      ],
+      [
+        "/documents/text",
+        "staged document pipeline"
+      ],
+      [
+        "/documents/texts",
+        "staged document pipeline"
+      ],
+      [
+        "/documents/upload",
+        "staged document pipeline"
+      ],
+      [
+        "9621",
+        "used_for"
+      ],
+      [
+        "API Key",
+        "authenticates,passes"
+      ],
+      [
+        "AUTH_ACCOUNTS",
+        "staged document pipeline"
+      ],
+      [
+        "Aliyun",
+        "Jina"
+      ],
+      [
+        "Asymmetric Embedding Configuration",
+        "requires"
+      ],
+      [
+        "CHUNK_OVERLAP_SIZE",
+        "staged document pipeline"
+      ],
+      [
+        "CHUNK_P_OVERLAP_SIZE",
+        "staged document pipeline"
+      ],
+      [
+        "CHUNK_P_SIZE",
+        "staged document pipeline"
+      ],
+      [
+        "CHUNK_R_SEPARATORS",
+        "staged document pipeline"
+      ],
+      [
+        "CHUNK_SIZE",
+        "staged document pipeline"
+      ],
+      [
+        "CHUNK_V_BREAKPOINT_THRESHOLD_TYPE",
+        "staged document pipeline"
+      ],
+      [
+        "Chunker parameters",
+        "File Processing Pipeline Specification"
+      ],
+      [
+        "Chunker parameters",
+        "chunk_options"
+      ],
+      [
+        "Cohere",
+        "Jina"
+      ],
+      [
+        "DOCLING_ENDPOINT",
+        "staged document pipeline"
+      ],
+      [
+        "DOCX",
+        "used_for"
+      ],
+      [
+        "EMBEDDING_BINDING",
+        "staged document pipeline"
+      ],
+      [
+        "EMBEDDING_BINDING_HOST",
+        "staged document pipeline"
+      ],
+      [
+        "EMBEDDING_DIM",
+        "staged document pipeline"
+      ],
+      [
+        "EMBEDDING_MODEL",
+        "staged document pipeline"
+      ],
+      [
+        "Embedding Configuration",
+        "staged document pipeline"
+      ],
+      [
+        "F",
+        "staged document pipeline"
+      ],
+      [
+        "For JWT Auth",
+        "staged document pipeline"
+      ],
+      [
+        "Full multimodal setup",
+        "staged document pipeline"
+      ],
+      [
+        "Guest account",
+        "allows,accesses"
+      ],
+      [
+        "In-memory database",
+        "WORKING_DIR directory"
+      ],
+      [
+        "JWT-based authentication",
+        "enables,uses"
+      ],
+      [
+        "LIGHTRAG_API_KEY",
+        "staged document pipeline"
+      ],
+      [
+        "LIGHTRAG_DOC_STATUS_STORAGE",
+        "used_for"
+      ],
+      [
+        "LIGHTRAG_GRAPH_STORAGE",
+        "used_for"
+      ],
+      [
+        "LIGHTRAG_PARSER",
+        "staged document pipeline"
+      ],
+      [
+        "LIGHTRAG_VECTOR_STORAGE",
+        "used_for"
+      ],
+      [
+        "LLM",
+        "gpt-4o-mini"
+      ],
+      [
+        "LLM",
+        "openai"
+      ],
+      [
+        "LLM/embedding/rerank queue status",
+        "reported by"
+      ],
+      [
+        "LightRAG",
+        "combines, Uses"
+      ],
+      [
+        "LightRAG",
+        "lightrag-server"
+      ],
+      [
+        "LightRAG",
+        "provides, Offers"
+      ],
+      [
+        "LightRAG Server",
+        "emulates"
+      ],
+      [
+        "LightRAG Server",
+        "provides"
+      ],
+      [
+        "LightRAG Server",
+        "requires"
+      ],
+      [
+        "LightRAG Server",
+        "supports"
+      ],
+      [
+        "LightRAG Server",
+        "uses"
+      ],
+      [
+        "LightRAG_KV_STORAGE",
+        "used_for"
+      ],
+      [
+        "MAX_ASYNC_LLM",
+        "controls"
+      ],
+      [
+        "MAX_ASYNC_RERANK",
+        "staged document pipeline"
+      ],
+      [
+        "MAX_PARALLEL_ANALYZE",
+        "controls"
+      ],
+      [
+        "MAX_PARALLEL_INSERT",
+        "controls"
+      ],
+      [
+        "MAX_PARALLEL_PARSE_DOCLING",
+        "controls"
+      ],
+      [
+        "MAX_PARALLEL_PARSE_MINERU",
+        "controls"
+      ],
+      [
+        "MAX_PARALLEL_PARSE_NATIVE",
+        "controls"
+      ],
+      [
+        "MINERU_API_MODE",
+        "staged document pipeline"
+      ],
+      [
+        "MINERU_API_TOKEN",
+        "staged document pipeline"
+      ],
+      [
+        "MINERU_IS_OCR",
+        "staged document pipeline"
+      ],
+      [
+        "MINERU_MODEL_VERSION",
+        "staged document pipeline"
+      ],
+      [
+        "MINERU_OFFICIAL_ENDPOINT",
+        "staged document pipeline"
+      ],
+      [
+        "Ollama",
+        "detects,forwards"
+      ],
+      [
+        "Ollama LLM + Ollama Embedding",
+        "is an example of"
+      ],
+      [
+        "Open WebUI",
+        "accesses"
+      ],
+      [
+        "Open WebUI",
+        "uses"
+      ],
+      [
+        "OpenAI LLM + Ollama Embedding",
+        "is an example of"
+      ],
+      [
+        "OpenSearch storage",
+        "requires"
+      ],
+      [
+        "P",
+        "staged document pipeline"
+      ],
+      [
+        "Parser Engines and Routing",
+        "staged document pipeline"
+      ],
+      [
+        "Processing Options",
+        "staged document pipeline"
+      ],
+      [
+        "QUERY_LLM_MODEL",
+        "gpt-4o"
+      ],
+      [
+        "Quick Recipes",
+        "staged document pipeline"
+      ],
+      [
+        "R",
+        "staged document pipeline"
+      ],
+      [
+        "RERANK_BINDING",
+        "staged document pipeline"
+      ],
+      [
+        "RERANK_BINDING_API_KEY",
+        "RERANK_BINDING_HOST"
+      ],
+      [
+        "RERANK_TIMEOUT",
+        "has an independent default"
+      ],
+      [
+        "RERANK_TIMEOUT",
+        "staged document pipeline"
+      ],
+      [
+        "SURROUNDING_LEADING_MAX_TOKENS",
+        "staged document pipeline"
+      ],
+      [
+        "SURROUNDING_TRAILING_MAX_TOKENS",
+        "staged document pipeline"
+      ],
+      [
+        "TOKEN_EXPIRE_HOURS",
+        "staged document pipeline"
+      ],
+      [
+        "TOKEN_SECRET",
+        "staged document pipeline"
+      ],
+      [
+        "V",
+        "staged document pipeline"
+      ],
+      [
+        "VLM",
+        "gpt-4o"
+      ],
+      [
+        "VLM enablement",
+        "reported by"
+      ],
+      [
+        "VLM_LLM_MODEL",
+        "staged document pipeline"
+      ],
+      [
+        "VLM_MAX_IMAGE_BYTES",
+        "staged document pipeline"
+      ],
+      [
+        "VLM_PROCESS_ENABLE",
+        "staged document pipeline"
+      ],
+      [
+        "WHITELIST_PATHS",
+        "staged document pipeline"
+      ],
+      [
+        "WebUI",
+        "used_for"
+      ],
+      [
+        "account credentials",
+        "authenticates,requires"
+      ],
+      [
+        "aliyun",
+        "dashscope.aliyuncs.com"
+      ],
+      [
+        "asymmetric embedding for prefix-based models",
+        "staged document pipeline"
+      ],
+      [
+        "bcrypt",
+        "stores,hashes"
+      ],
+      [
+        "builds",
+        "bun run build"
+      ],
+      [
+        "bun install",
+        "installs"
+      ],
+      [
+        "clones",
+        "git clone"
+      ],
+      [
+        "curl",
+        "used_for"
+      ],
+      [
+        "determines,specifies",
+        "query prefix"
+      ],
+      [
+        "docker compose",
+        "used_for"
+      ],
+      [
+        "e",
+        "staged document pipeline"
+      ],
+      [
+        "env.example",
+        "is a template for"
+      ],
+      [
+        "gpt-4o-mini",
+        "keyword"
+      ],
+      [
+        "have precedence over",
+        "system environment variables"
+      ],
+      [
+        "i",
+        "staged document pipeline"
+      ],
+      [
+        "i/t/e process options",
+        "staged document pipeline"
+      ],
+      [
+        "includes",
+        "v1.5.0rc2"
+      ],
+      [
+        "includes, Contains",
+        "response"
+      ],
+      [
+        "installs",
+        "make dev"
+      ],
+      [
+        "localhost",
+        "used_for"
+      ],
+      [
+        "memo",
+        "staged document pipeline"
+      ],
+      [
+        "notes",
+        "staged document pipeline"
+      ],
+      [
+        "paper",
+        "staged document pipeline"
+      ],
+      [
+        "reported by",
+        "rerank enablement"
+      ],
+      [
+        "reported by",
+        "role LLM configuration"
+      ],
+      [
+        "reported by",
+        "workspace/storage workspace mapping"
+      ],
+      [
+        "reranker configuration",
+        "staged document pipeline"
+      ],
+      [
+        "staged document pipeline",
+        "t"
+      ],
+      [
+        "upgrades to",
+        "v1.4.16"
+      ]
+    ],
+    "count": 119,
+    "create_time": 1786007550,
+    "update_time": 1786007550,
+    "_id": "doc-497eef1a84c2e1267fe9ef217a5f0106"
+  },
+  "doc-d37ce0e26a92a51f4827fa69633d38eb": {
+    "relation_pairs": [
+      [
+        "*.parsed/",
+        "contains"
+      ],
+      [
+        "Content Parsing Engines",
+        "outputs"
+      ],
+      [
+        "Drawing",
+        "type"
+      ],
+      [
+        "Field description",
+        "llm_analyze_result"
+      ],
+      [
+        "LLM",
+        "analyzes"
+      ],
+      [
+        "LLM",
+        "writes analysis results to"
+      ],
+      [
+        "LLM's context window",
+        "content field"
+      ],
+      [
+        "LightRAG",
+        "has"
+      ],
+      [
+        "LightRAG",
+        "uses"
+      ],
+      [
+        "Trigger scenario",
+        "llm_analyze_result"
+      ],
+      [
+        "VLM",
+        "analyzes"
+      ],
+      [
+        "VLM",
+        "writes analysis results to"
+      ],
+      [
+        "absolute",
+        "bbox"
+      ],
+      [
+        "absolute",
+        "heading"
+      ],
+      [
+        "analysis results",
+        "written by"
+      ],
+      [
+        "asset_dir",
+        "is a field of"
+      ],
+      [
+        "bbox",
+        "heading"
+      ],
+      [
+        "blockid",
+        "is a field of"
+      ],
+      [
+        "blockid",
+        "position"
+      ],
+      [
+        "contains",
+        "content block"
+      ],
+      [
+        "contains",
+        "document-level meta"
+      ],
+      [
+        "contains",
+        "meta line example"
+      ],
+      [
+        "contains",
+        "sidecar file"
+      ],
+      [
+        "content",
+        "is a field of"
+      ],
+      [
+        "content field",
+        "modal analysis stage"
+      ],
+      [
+        "doc_title",
+        "is a field of"
+      ],
+      [
+        "document deletion",
+        "results in"
+      ],
+      [
+        "document deletion",
+        "triggered by"
+      ],
+      [
+        "document_format",
+        "is a field of"
+      ],
+      [
+        "document_hash",
+        "is a field of"
+      ],
+      [
+        "document_name",
+        "is a field of"
+      ],
+      [
+        "drawing id",
+        "is a field of"
+      ],
+      [
+        "drawing_file",
+        "is a field of"
+      ],
+      [
+        "equation_file",
+        "is a field of"
+      ],
+      [
+        "heading",
+        "is a field of"
+      ],
+      [
+        "is a field of",
+        "llm_analyze_result"
+      ],
+      [
+        "is a field of",
+        "parse_engine"
+      ],
+      [
+        "is a field of",
+        "parse_time"
+      ],
+      [
+        "is a field of",
+        "surrounding"
+      ],
+      [
+        "is a field of",
+        "table_file"
+      ],
+      [
+        "llm_analyze_result",
+        "status"
+      ]
+    ],
+    "count": 41,
+    "create_time": 1786007721,
+    "update_time": 1786007721,
+    "_id": "doc-d37ce0e26a92a51f4827fa69633d38eb"
+  },
+  "doc-e53a52ad2aa33fe5e544e0301b8ee9d8": {
+    "relation_pairs": [
+      [
+        "AUTOINDEX",
+        "Milvus Index Configurations"
+      ],
+      [
+        "BF16",
+        "Milvus Index Configurations"
+      ],
+      [
+        "COSINE",
+        "Milvus Index Configurations"
+      ],
+      [
+        "Clean API",
+        "Milvus Configuration"
+      ],
+      [
+        "Dynamic Configuration",
+        "Milvus Configuration"
+      ],
+      [
+        "FP16",
+        "Milvus Index Configurations"
+      ],
+      [
+        "FP32",
+        "Milvus Index Configurations"
+      ],
+      [
+        "Framework Integration",
+        "Milvus Configuration"
+      ],
+      [
+        "HNSW",
+        "Milvus Index Configurations"
+      ],
+      [
+        "HNSW_SQ",
+        "Milvus Index Configurations"
+      ],
+      [
+        "IVF_FLAT",
+        "Milvus Index Configurations"
+      ],
+      [
+        "L2",
+        "Milvus Index Configurations"
+      ],
+      [
+        "LightRAG",
+        "MilvusVectorDBStorage"
+      ],
+      [
+        "LightRAG",
+        "working_dir"
+      ],
+      [
+        "Milvus 2.6.8",
+        "Milvus Index Configurations"
+      ],
+      [
+        "Milvus Configuration",
+        "Programmatic Configuration"
+      ],
+      [
+        "Milvus Configuration",
+        "vector_db_storage_cls_kwargs"
+      ],
+      [
+        "Milvus Index Configurations",
+        "SQ4U"
+      ],
+      [
+        "Milvus Index Configurations",
+        "SQ6"
+      ],
+      [
+        "Milvus Index Configurations",
+        "SQ8"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1786007825,
+    "update_time": 1786007825,
+    "_id": "doc-e53a52ad2aa33fe5e544e0301b8ee9d8"
+  },
+  "doc-558e38006bd5ca5454199c44ecff32cd": {
+    "relation_pairs": [
+      [
+        "Artifact",
+        "WebUI"
+      ],
+      [
+        "Artifact",
+        "backend"
+      ],
+      [
+        "Artifact",
+        "dev proxy"
+      ],
+      [
+        "Artifact",
+        "frontend"
+      ],
+      [
+        "Artifact",
+        "server"
+      ],
+      [
+        "Artifact",
+        "server logs"
+      ],
+      [
+        "Asset URLs 404 when accessing the WebUI",
+        "is caused by"
+      ],
+      [
+        "Concept",
+        "LIGHTRAG_API_PREFIX"
+      ],
+      [
+        "Concept",
+        "VITE_DEV_API_PREFIX"
+      ],
+      [
+        "Concept",
+        "runtime-config injection"
+      ],
+      [
+        "FastAPI",
+        "uses"
+      ],
+      [
+        "HTTPS upstream + self-signed cert",
+        "requires"
+      ],
+      [
+        "LIGHTRAG_API_PREFIX",
+        "configures"
+      ],
+      [
+        "LIGHTRAG_API_PREFIX",
+        "site01"
+      ],
+      [
+        "LIGHTRAG_API_PREFIX",
+        "site02"
+      ],
+      [
+        "Open in browser",
+        "is"
+      ],
+      [
+        "Port",
+        "lightrag-site01"
+      ],
+      [
+        "Port",
+        "lightrag-site02"
+      ],
+      [
+        "SmartStaticFiles",
+        "serves"
+      ],
+      [
+        "Starlette",
+        "uses"
+      ],
+      [
+        "VITE_BACKEND_URL",
+        "configures"
+      ],
+      [
+        "Vite",
+        "uses"
+      ],
+      [
+        "Vite's proxy",
+        "forwards"
+      ],
+      [
+        "allows",
+        "changeOrigin: true"
+      ],
+      [
+        "browser",
+        "encounters"
+      ],
+      [
+        "browser",
+        "makes"
+      ],
+      [
+        "browser",
+        "requires"
+      ],
+      [
+        "browser",
+        "uses"
+      ],
+      [
+        "bun run dev",
+        "runs"
+      ],
+      [
+        "changeOrigin: true",
+        "resolves"
+      ],
+      [
+        "host.example.com",
+        "nginx.ingress.kubernetes.io"
+      ],
+      [
+        "host.example.com",
+        "site01"
+      ],
+      [
+        "host.example.com",
+        "site02"
+      ],
+      [
+        "nginx",
+        "serves"
+      ],
+      [
+        "rejects",
+        "remote backend"
+      ]
+    ],
+    "count": 35,
+    "create_time": 1786007906,
+    "update_time": 1786007906,
+    "_id": "doc-558e38006bd5ca5454199c44ecff32cd"
+  },
+  "doc-a1c50a7f3809140ca9c7d7176ff5b4ed": {
+    "relation_pairs": [
+      [
+        "Default Models Downloaded",
+        "gpt-3.5-turbo"
+      ],
+      [
+        "Default Models Downloaded",
+        "gpt-4"
+      ],
+      [
+        "Default Models Downloaded",
+        "gpt-4o"
+      ],
+      [
+        "Default Models Downloaded",
+        "gpt-4o-mini"
+      ],
+      [
+        "Default Models Downloaded",
+        "text-embedding-3-large"
+      ],
+      [
+        "Default Models Downloaded",
+        "text-embedding-3-small"
+      ],
+      [
+        "Default Models Downloaded",
+        "text-embedding-ada-002"
+      ],
+      [
+        "Docker Deployment Guide",
+        "LightRAG GitHub Repository"
+      ],
+      [
+        "Extract archive",
+        "tar -xzf"
+      ],
+      [
+        "GitHub Issues",
+        "project documentation"
+      ],
+      [
+        "GitHub Repository",
+        "LightRAG GitHub Repository"
+      ],
+      [
+        "LightRAG",
+        "pip download lightrag-hku[offline] -d ./offline_cache/packages"
+      ],
+      [
+        "LightRAG",
+        "pip install lightrag-hku[offline]"
+      ],
+      [
+        "LightRAG",
+        "pip install lightrag-hku[offline] -d ./offline_cache/tiktoken"
+      ],
+      [
+        "LightRAG",
+        "tar -czf lightrag-offline-complete.tar.gz ./offline_cache"
+      ],
+      [
+        "LightRAG",
+        "tar -tzf lightrag-offline-complete.tar.gz | head -20"
+      ],
+      [
+        "LightRAG GitHub Repository",
+        "LightRAG-API-Server.md"
+      ],
+      [
+        "TIKTOKEN_CACHE_DIR",
+        "export"
+      ],
+      [
+        "bashrc",
+        "echo"
+      ],
+      [
+        "chmod 644 ~/.tiktoken_cache/*",
+        "chmod 755 ~/.tiktoken_cache"
+      ],
+      [
+        "cp -r",
+        "cp -r /tmp/offline_cache/tiktoken/* ~/.tiktoken_cache/"
+      ],
+      [
+        "echo",
+        "echo 'export TIKTOKEN_CACHE_DIR=~/.tiktoken_cache'"
+      ],
+      [
+        "export TIKTOKEN_CACHE_DIR=~/my_tiktoken_cache",
+        "mkdir -p ~/my_tiktoken_cache"
+      ],
+      [
+        "lightrag-hku",
+        "pip"
+      ],
+      [
+        "openai",
+        "pip"
+      ],
+      [
+        "pip",
+        "pipdownload"
+      ],
+      [
+        "pip",
+        "pipinstall"
+      ],
+      [
+        "pip download",
+        "pip install"
+      ],
+      [
+        "pip install",
+        "pip install --no-index"
+      ],
+      [
+        "pip install lightrag-hku[api]",
+        "pip install lightrag-hku[offline]  # Install all offline deps"
+      ],
+      [
+        "pip install lightrag-hku[api]",
+        "pip install openai"
+      ],
+      [
+        "pip install lightrag-hku[offline-llm]",
+        "pip install lightrag-hku[offline]  # Install all offline deps"
+      ],
+      [
+        "pip install lightrag-hku[offline-storage]",
+        "pip install lightrag-hku[offline]  # Install all offline deps"
+      ],
+      [
+        "pip install lightrag-hku[offline]",
+        "pip install lightrag-hku[offline]  # Install all offline deps"
+      ],
+      [
+        "pip install openai",
+        "pip list | grep -i xxx"
+      ],
+      [
+        "python -c",
+        "python -c \"from lightrag import LightRAG; print('✓ LightRAG imported'\""
+      ],
+      [
+        "python -c",
+        "python -c \"from lightrag.utils import TiktokenTokenizer; t = TiktokenTokenizer(); print('✓ Tiktoken working'\""
+      ],
+      [
+        "scp",
+        "scp lightrag-offline-complete.tar.gz"
+      ]
+    ],
+    "count": 38,
+    "create_time": 1786008326,
+    "update_time": 1786008326,
+    "_id": "doc-a1c50a7f3809140ca9c7d7176ff5b4ed"
+  },
+  "doc-832e2be61d469cc5f7dd74904c81d721": {
+    "relation_pairs": [
+      [
+        ".blocks.jsonl",
+        "contains"
+      ],
+      [
+        "Bridge text",
+        "overlap invariants"
+      ],
+      [
+        "CHUNK_P_OVERLAP_SIZE",
+        "controls"
+      ],
+      [
+        "Embedding compute cost",
+        "is associated with"
+      ],
+      [
+        "Gluing strategy",
+        "table slice"
+      ],
+      [
+        "IRBlock",
+        "carried_by"
+      ],
+      [
+        "Imbalanced fine-grained section sizes",
+        "problem addressed by"
+      ],
+      [
+        "Inherits or promotes heading",
+        "characterizes"
+      ],
+      [
+        "Long body text",
+        "overlap invariants"
+      ],
+      [
+        "Long-block re-splitting breaks structure",
+        "problem addressed by"
+      ],
+      [
+        "Markdown",
+        "is supported by"
+      ],
+      [
+        "Messy headings shift the basic-block boundaries",
+        "characterizes"
+      ],
+      [
+        "P auto-degrades to R when there is no sidecar",
+        "characterizes"
+      ],
+      [
+        "P relies on parser correctly identifying headings",
+        "characterizes"
+      ],
+      [
+        "P strategy",
+        "align chunk boundaries with document's native semantic boundaries"
+      ],
+      [
+        "P strategy",
+        "is a type of"
+      ],
+      [
+        "P strategy",
+        "make each chunk understandable on its own at recall time"
+      ],
+      [
+        "Paragraph Semantic Chunking",
+        "targets"
+      ],
+      [
+        "R strategy",
+        "is used when"
+      ],
+      [
+        "Required input",
+        "is needed for"
+      ],
+      [
+        "Role",
+        "non-table slice"
+      ],
+      [
+        "Role",
+        "table slice"
+      ],
+      [
+        "Role",
+        "unsplit whole table"
+      ],
+      [
+        "Section boundaries",
+        "overlap invariants"
+      ],
+      [
+        "Section boundaries never overlap",
+        "characterizes"
+      ],
+      [
+        "Table context fracture",
+        "problem addressed by"
+      ],
+      [
+        "Table rows",
+        "overlap invariants"
+      ],
+      [
+        "Table-unaware",
+        "characterizes"
+      ],
+      [
+        "Underused hierarchy information",
+        "problem addressed by"
+      ],
+      [
+        "V auto-degrades to R when there is no embedding model",
+        "characterizes"
+      ],
+      [
+        "V strategy",
+        "degrades to"
+      ],
+      [
+        "V strategy",
+        "is compared to"
+      ],
+      [
+        "affect",
+        "messy heading styles"
+      ],
+      [
+        "affect",
+        "pseudo-headings"
+      ],
+      [
+        "anchors",
+        "are used in"
+      ],
+      [
+        "are considered in",
+        "parent_headings"
+      ],
+      [
+        "are considered in",
+        "table-row boundaries"
+      ],
+      [
+        "are re-wrapped as",
+        "large tables"
+      ],
+      [
+        "are sliced along",
+        "large tables"
+      ],
+      [
+        "are used in",
+        "sentence-level embedding-distance thresholds"
+      ],
+      [
+        "assigned_to",
+        "table_chunk_role"
+      ],
+      [
+        "bridge text between consecutive large tables",
+        "can enter both"
+      ],
+      [
+        "cascaded separators are robust enough for mixed Chinese/English text",
+        "characterizes"
+      ],
+      [
+        "characterizes",
+        "no embedding cost"
+      ],
+      [
+        "characterizes",
+        "preserves parent_headings and level"
+      ],
+      [
+        "chunk_token_size",
+        "controls"
+      ],
+      [
+        "code",
+        "is supported by"
+      ],
+      [
+        "compute cost",
+        "is low for"
+      ],
+      [
+        "controls",
+        "target_max"
+      ],
+      [
+        "cross-level merging",
+        "phase B"
+      ],
+      [
+        "cross-page repeating header",
+        "stored in"
+      ],
+      [
+        "current_heading_stack",
+        "document.xml"
+      ],
+      [
+        "doc_id",
+        "full_docs"
+      ],
+      [
+        "docling",
+        "produces"
+      ],
+      [
+        "document.xml",
+        "parent_headings"
+      ],
+      [
+        "documents",
+        "have"
+      ],
+      [
+        "falls back to",
+        "long body text within one section"
+      ],
+      [
+        "file type",
+        "is supported by"
+      ],
+      [
+        "format",
+        "table"
+      ],
+      [
+        "full_docs",
+        "lightrag_document_path"
+      ],
+      [
+        "full_docs",
+        "parse_format"
+      ],
+      [
+        "full_docs",
+        "process_options"
+      ],
+      [
+        "glues to",
+        "leading explanation"
+      ],
+      [
+        "glues to",
+        "trailing commentary"
+      ],
+      [
+        "handles",
+        "table_max"
+      ],
+      [
+        "heading metadata",
+        "is inherited in"
+      ],
+      [
+        "hierarchy-aware merging",
+        "is used in"
+      ],
+      [
+        "is considered in",
+        "level"
+      ],
+      [
+        "is produced by",
+        "sidecar"
+      ],
+      [
+        "is supported by",
+        "logs"
+      ],
+      [
+        "is supported by",
+        "plain text"
+      ],
+      [
+        "limits",
+        "table_max"
+      ],
+      [
+        "limits",
+        "table_min_last"
+      ],
+      [
+        "limits",
+        "target_max"
+      ],
+      [
+        "logger.warning",
+        "used_by"
+      ],
+      [
+        "mineru",
+        "produces"
+      ],
+      [
+        "native",
+        "produces"
+      ],
+      [
+        "table",
+        "token count"
+      ]
+    ],
+    "count": 78,
+    "create_time": 1786008606,
+    "update_time": 1786008606,
+    "_id": "doc-832e2be61d469cc5f7dd74904c81d721"
+  },
+  "doc-c23c1da1b37f05359c98c1d67e825dee": {
+    "relation_pairs": [
+      [
+        "CLI",
+        "drives the same registry dispatch path as"
+      ],
+      [
+        "CLI does not freeze timestamps",
+        "just exclude time fields such as"
+      ],
+      [
+        "DOCLING_DO_FORMULA_ENRICHMENT",
+        "specifies whether formula enrichment should be performed by"
+      ],
+      [
+        "DOCLING_DO_OCR",
+        "specifies whether OCR should be performed by"
+      ],
+      [
+        "DOCLING_ENDPOINT",
+        "specifies the endpoint for"
+      ],
+      [
+        "DOCLING_ENGINE_VERSION",
+        "specifies the engine version for"
+      ],
+      [
+        "DOCLING_FORCE_OCR",
+        "specifies whether OCR should be forced by"
+      ],
+      [
+        "DOCLING_MAX_POLLS",
+        "specifies the maximum number of polls for"
+      ],
+      [
+        "DOCLING_OCR_ENGINE",
+        "specifies the OCR engine for"
+      ],
+      [
+        "DOCLING_OCR_LANG",
+        "specifies the OCR language for"
+      ],
+      [
+        "DOCLING_OCR_PRESET",
+        "specifies the OCR preset for"
+      ],
+      [
+        "DOCLING_POLL_INTERVAL_SECONDS",
+        "specifies the poll interval in seconds for"
+      ],
+      [
+        "Debugging parsing engines",
+        "parser"
+      ],
+      [
+        "Docling",
+        "requires"
+      ],
+      [
+        "ExternalParserBase",
+        "parser"
+      ],
+      [
+        "FileProcessingConfiguration.md",
+        "contains details about"
+      ],
+      [
+        "LightRAG's registry",
+        "Third-party engines"
+      ],
+      [
+        "LightRAG's registry",
+        "docling"
+      ],
+      [
+        "LightRAG's registry",
+        "legacy"
+      ],
+      [
+        "LightRAG's registry",
+        "mineru"
+      ],
+      [
+        "LightRAG's registry",
+        "native"
+      ],
+      [
+        "LightRAG's registry",
+        "parser"
+      ],
+      [
+        "MINERU_API_MODE",
+        "specifies the API mode for"
+      ],
+      [
+        "MINERU_API_TOKEN",
+        "contains the API token for"
+      ],
+      [
+        "MINERU_ENGINE_VERSION",
+        "specifies the engine version for"
+      ],
+      [
+        "MINERU_LOCAL_ENDPOINT",
+        "specifies the local endpoint for"
+      ],
+      [
+        "MINERU_MAX_POLLS",
+        "specifies the maximum number of polls for"
+      ],
+      [
+        "MINERU_MODEL_VERSION",
+        "specifies the model version for"
+      ],
+      [
+        "MINERU_OFFICIAL_ENDPOINT",
+        "specifies the official endpoint for"
+      ],
+      [
+        "MINERU_POLL_INTERVAL_SECONDS",
+        "specifies the poll interval in seconds for"
+      ],
+      [
+        "MinerU",
+        "is a tool used for"
+      ],
+      [
+        "MinerU",
+        "requires"
+      ],
+      [
+        "Third-party engines",
+        "lightrag.parsers"
+      ],
+      [
+        "Third-party engines",
+        "parser"
+      ],
+      [
+        "are a set of tools used for",
+        "docling engines"
+      ],
+      [
+        "are called when",
+        "external services"
+      ],
+      [
+        "are required for",
+        "external service environment variables"
+      ],
+      [
+        "bundle files",
+        "parser"
+      ],
+      [
+        "cache",
+        "is used by"
+      ],
+      [
+        "cache hit",
+        "does not require"
+      ],
+      [
+        "doc_id",
+        "parser"
+      ],
+      [
+        "docling",
+        "is used by"
+      ],
+      [
+        "environment variables",
+        "store information about"
+      ],
+      [
+        "force-reparse",
+        "parser"
+      ],
+      [
+        "indicates that something is run",
+        "local"
+      ],
+      [
+        "indicates that something is run",
+        "official"
+      ],
+      [
+        "input_file",
+        "must be an existing file"
+      ],
+      [
+        "input_file",
+        "parser"
+      ],
+      [
+        "is used to implement differences",
+        "monkey-patch"
+      ],
+      [
+        "lightrag.parser.cli",
+        "processes"
+      ],
+      [
+        "ling",
+        "uses"
+      ],
+      [
+        "parser",
+        "preview N"
+      ],
+      [
+        "parser",
+        "sample.blocks.assets"
+      ],
+      [
+        "parser",
+        "sample.blocks.jsonl"
+      ],
+      [
+        "parser",
+        "sample.docx"
+      ],
+      [
+        "parser",
+        "sample.drawings.json"
+      ],
+      [
+        "parser",
+        "sample.equations.json"
+      ],
+      [
+        "parser",
+        "sample.pdf"
+      ],
+      [
+        "parser",
+        "sample.tables.json"
+      ],
+      [
+        "parser",
+        "sidecar_parent_dir"
+      ]
+    ],
+    "count": 60,
+    "create_time": 1786008780,
+    "update_time": 1786008780,
+    "_id": "doc-c23c1da1b37f05359c98c1d67e825dee"
+  },
+  "doc-5ce3beac28f955cae00646a6f9e69a70": {
+    "relation_pairs": [
+      [
+        "500",
+        "Data"
+      ],
+      [
+        "Additional parameters for LLM generation",
+        "Concept"
+      ],
+      [
+        "Alice",
+        "Bob"
+      ],
+      [
+        "Alice",
+        "Quantum Computing"
+      ],
+      [
+        "Apache AGE",
+        "PostgreSQL"
+      ],
+      [
+        "Artifact",
+        "addon_params"
+      ],
+      [
+        "Artifact",
+        "chunker"
+      ],
+      [
+        "Artifact",
+        "cosine_better_than_threshold"
+      ],
+      [
+        "Artifact",
+        "enable_llm_cache"
+      ],
+      [
+        "Artifact",
+        "enable_llm_cache_for_entity_extract"
+      ],
+      [
+        "Artifact",
+        "entity_type_prompt_file"
+      ],
+      [
+        "Artifact",
+        "entity_types_guidance"
+      ],
+      [
+        "Artifact",
+        "llm_model_kwargs"
+      ],
+      [
+        "Artifact",
+        "llm_model_max_async"
+      ],
+      [
+        "Artifact",
+        "paragraph_semantic"
+      ],
+      [
+        "Artifact",
+        "summary_context_size"
+      ],
+      [
+        "Artifact",
+        "vector_db_storage_cls_kwargs"
+      ],
+      [
+        "Azure OpenAI",
+        "uses"
+      ],
+      [
+        "Bob",
+        "Quantum Computing"
+      ],
+      [
+        "Concept",
+        "Cosine better than threshold"
+      ],
+      [
+        "Concept",
+        "Enable LLM cache"
+      ],
+      [
+        "Concept",
+        "Enable LLM cache for entity extract"
+      ],
+      [
+        "Concept",
+        "LLM model name"
+      ],
+      [
+        "Concept",
+        "Maximum number of concurrent asynchronous LLM processes"
+      ],
+      [
+        "Concept",
+        "Maximum token size for entity/relation description"
+      ],
+      [
+        "Concept",
+        "Maximum tokens send to LLM"
+      ],
+      [
+        "Concept",
+        "Runtime knobs for extraction prompts and chunking"
+      ],
+      [
+        "Concept",
+        "Summary context size"
+      ],
+      [
+        "Concept",
+        "Vector database storage class parameters"
+      ],
+      [
+        "Concept",
+        "breakpoint_threshold_type"
+      ],
+      [
+        "Concept",
+        "language"
+      ],
+      [
+        "Concept",
+        "sentence_split_regex"
+      ],
+      [
+        "Concept",
+        "separators"
+      ],
+      [
+        "Concept",
+        "split_by_character"
+      ],
+      [
+        "Concept",
+        "split_by_character_only"
+      ],
+      [
+        "Data",
+        "breakpoint_threshold_amount"
+      ],
+      [
+        "Data",
+        "buffer_size"
+      ],
+      [
+        "Data",
+        "chunk_overlap_token_size"
+      ],
+      [
+        "Data",
+        "chunk_token_size"
+      ],
+      [
+        "Data Directory",
+        "Embedding Models"
+      ],
+      [
+        "Data Directory",
+        "Errors"
+      ],
+      [
+        "Data Directory",
+        "kv_store_llm_response_cache.json"
+      ],
+      [
+        "DocStatus storage",
+        "OpenSearch Storage"
+      ],
+      [
+        "Docker",
+        "Docker Hub"
+      ],
+      [
+        "Docker",
+        "OpenSearch Storage"
+      ],
+      [
+        "Docker",
+        "run"
+      ],
+      [
+        "Docker Compose",
+        "OpenSearch Storage"
+      ],
+      [
+        "Docker Compose",
+        "`Integration Testing'"
+      ],
+      [
+        "Docker Hub",
+        "gzdaniel/postgres-for-rag"
+      ],
+      [
+        "Function",
+        "LLM"
+      ],
+      [
+        "Function",
+        "callable"
+      ],
+      [
+        "Function",
+        "gpt_4o_mini_complete"
+      ],
+      [
+        "Gmail",
+        "Google"
+      ],
+      [
+        "Google",
+        "LightRAG"
+      ],
+      [
+        "Graph storage",
+        "OpenSearch Storage"
+      ],
+      [
+        "KV storage",
+        "OpenSearch Storage"
+      ],
+      [
+        "LightRAG",
+        "OpenSearch Storage"
+      ],
+      [
+        "LightRAG",
+        "initialize_rag"
+      ],
+      [
+        "LightRAG",
+        "requires"
+      ],
+      [
+        "LightRAG",
+        "supports integration with"
+      ],
+      [
+        "LightRAG",
+        "uses"
+      ],
+      [
+        "LightRAG storage types",
+        "OpenSearch Storage"
+      ],
+      [
+        "LlamaIndex",
+        "uses"
+      ],
+      [
+        "MILVUS_WORKSPACE",
+        "WORKSPACE"
+      ],
+      [
+        "MONGODB_WORKSPACE",
+        "WORKSPACE"
+      ],
+      [
+        "Memgraph",
+        "MemgraphStorage"
+      ],
+      [
+        "Milvus",
+        "MilvusVectorDBStorage"
+      ],
+      [
+        "MongoDB",
+        "MongoVectorDBStorage"
+      ],
+      [
+        "Neo4JStorage",
+        "Neo4j"
+      ],
+      [
+        "Neo4j",
+        "PostgreSQL"
+      ],
+      [
+        "Neo4j",
+        "bolt"
+      ],
+      [
+        "OPENSEARCH_WORKSPACE",
+        "WORKSPACE"
+      ],
+      [
+        "Ollama Models",
+        "requires"
+      ],
+      [
+        "OpenSearch",
+        "`Integration Testing'"
+      ],
+      [
+        "OpenSearch",
+        "configure"
+      ],
+      [
+        "OpenSearch",
+        "install"
+      ],
+      [
+        "OpenSearch",
+        "unified storage solution"
+      ],
+      [
+        "OpenSearch Storage",
+        "Vector storage"
+      ],
+      [
+        "OpenSearch Storage",
+        "`OPENSEARCH_HOSTS'"
+      ],
+      [
+        "OpenSearch Storage",
+        "`OPENSEARCH_PASSWORD'"
+      ],
+      [
+        "OpenSearch Storage",
+        "`OPENSEARCH_USER'"
+      ],
+      [
+        "OpenSearch Storage",
+        "`OPENSEARCH_USE_SSL'"
+      ],
+      [
+        "OpenSearch Storage",
+        "`OPENSEARCH_VERIFY_CERTS'"
+      ],
+      [
+        "OpenSearch Storage",
+        "`rag'"
+      ],
+      [
+        "OpenSearch Storage",
+        "cloud-only restrictions"
+      ],
+      [
+        "OpenSearch Storage",
+        "env.example"
+      ],
+      [
+        "OpenSearch Storage",
+        "full-text search"
+      ],
+      [
+        "OpenSearch Storage",
+        "horizontal scalability"
+      ],
+      [
+        "OpenSearch Storage",
+        "k-NN vector search"
+      ],
+      [
+        "OpenSearch Storage",
+        "native k-NN vector search"
+      ],
+      [
+        "QDRANT_WORKSPACE",
+        "WORKSPACE"
+      ],
+      [
+        "REDIS_WORKSPACE",
+        "WORKSPACE"
+      ],
+      [
+        "Redis",
+        "maxclients"
+      ],
+      [
+        "Redis",
+        "maxmemory"
+      ],
+      [
+        "Redis",
+        "maxmemory-policy"
+      ],
+      [
+        "Redis",
+        "save"
+      ],
+      [
+        "Redis configuration",
+        "local Redis container"
+      ],
+      [
+        "SUMMARY_LANGUAGE",
+        "Used in"
+      ],
+      [
+        "Storage Types",
+        "source_entity"
+      ],
+      [
+        "`./data/config/redis.conf'",
+        "local Redis container"
+      ],
+      [
+        "`Integration Testing'",
+        "`OPENSEARCH_API_KEY'"
+      ],
+      [
+        "`OpenSearchDocStatusStorage'",
+        "rag"
+      ],
+      [
+        "`OpenSearchGraphStorage'",
+        "rag"
+      ],
+      [
+        "`OpenSearchKVStorage'",
+        "rag"
+      ],
+      [
+        "`OpenSearchVectorDBStorage'",
+        "rag"
+      ],
+      [
+        "`graphlookup'",
+        "client-side batched BFS"
+      ],
+      [
+        "`graphlookup'",
+        "server-side BFS"
+      ],
+      [
+        "embedding_func",
+        "uses"
+      ],
+      [
+        "llama_index_embed.func",
+        "uses"
+      ],
+      [
+        "llm_model_func",
+        "uses"
+      ],
+      [
+        "response_type",
+        "stream"
+      ]
+    ],
+    "count": 111,
+    "create_time": 1786009126,
+    "update_time": 1786009126,
+    "_id": "doc-5ce3beac28f955cae00646a6f9e69a70"
+  },
+  "doc-32de6cb75d6f34ce510d7695c3261a3b": {
+    "relation_pairs": [
+      [
+        "Comprehensiveness",
+        "GraphRAG"
+      ],
+      [
+        "Comprehensiveness",
+        "HyDE"
+      ],
+      [
+        "Comprehensiveness",
+        "LightRAG"
+      ],
+      [
+        "Diversity",
+        "GraphRAG"
+      ],
+      [
+        "Diversity",
+        "HyDE"
+      ],
+      [
+        "Diversity",
+        "LightRAG"
+      ],
+      [
+        "Empowerment",
+        "GraphRAG"
+      ],
+      [
+        "Empowerment",
+        "HyDE"
+      ],
+      [
+        "Empowerment",
+        "LightRAG"
+      ],
+      [
+        "GraphRAG",
+        "HyDE"
+      ],
+      [
+        "GraphRAG",
+        "LightRAG"
+      ],
+      [
+        "GraphRAG",
+        "Overall"
+      ],
+      [
+        "HyDE",
+        "LightRAG"
+      ],
+      [
+        "HyDE",
+        "Overall"
+      ],
+      [
+        "LightRAG",
+        "Overall"
+      ],
+      [
+        "LightRAG",
+        "dataset"
+      ],
+      [
+        "LightRAG",
+        "generate_query.py"
+      ],
+      [
+        "answer1",
+        "is an answer to"
+      ],
+      [
+        "answer2",
+        "is an answer to"
+      ],
+      [
+        "determines",
+        "evaluation"
+      ],
+      [
+        "evaluation",
+        "includes"
+      ],
+      [
+        "evaluation",
+        "involves"
+      ],
+      [
+        "evaluation",
+        "requires"
+      ],
+      [
+        "evaluation",
+        "results in"
+      ]
+    ],
+    "count": 24,
+    "create_time": 1786009234,
+    "update_time": 1786009234,
+    "_id": "doc-32de6cb75d6f34ce510d7695c3261a3b"
+  },
+  "doc-9a583d83915dae1536924c9149ccfaa0": {
+    "relation_pairs": [
+      [
+        ".env",
+        "LightRAG Server"
+      ],
+      [
+        "AI_LLM_*",
+        "QUERY_OPENAI_LLM_REASONING_EFFORT"
+      ],
+      [
+        "API key",
+        "Azure endpoint"
+      ],
+      [
+        "AWS Bearer Token Bedrock",
+        "bedrock"
+      ],
+      [
+        "AZURE_OPENAI_DEPLOYMENT",
+        "global environment variables"
+      ],
+      [
+        "Authentication limitations",
+        "lollms"
+      ],
+      [
+        "Authentication limitations",
+        "ollama"
+      ],
+      [
+        "Authentication limitations",
+        "openai"
+      ],
+      [
+        "Azure OpenAI API Key",
+        "Azure endpoint"
+      ],
+      [
+        "Azure endpoint",
+        "Ollama client"
+      ],
+      [
+        "Azure endpoint",
+        "OpenAI-compatible endpoint"
+      ],
+      [
+        "Azure endpoint",
+        "bedrock"
+      ],
+      [
+        "BEDROCK_LLM_MAX_TOKENS",
+        "used_for"
+      ],
+      [
+        "BEDROCK_LLM_TEMPERATURE",
+        "used_for"
+      ],
+      [
+        "Bedrock",
+        "EXTRACT_AWS_ACCESS_KEY_ID"
+      ],
+      [
+        "Bedrock",
+        "EXTRACT_AWS_REGION"
+      ],
+      [
+        "Bedrock",
+        "EXTRACT_AWS_SECRET_ACCESS_KEY"
+      ],
+      [
+        "Bedrock",
+        "EXTRACT_AWS_SESSION_TOKEN"
+      ],
+      [
+        "Bedrock",
+        "EXTRACT_BEDROCK_LLM_MAX_TOKENS"
+      ],
+      [
+        "Bedrock",
+        "EXTRACT_BEDROCK_LLM_TEMPERATURE"
+      ],
+      [
+        "Bedrock",
+        "EXTRACT_LLM_BINDING_API_KEY"
+      ],
+      [
+        "Bedrock",
+        "EXTRACT_LLM_BINDING_HOST"
+      ],
+      [
+        "Bedrock",
+        "LLM_BINDING_API_KEY"
+      ],
+      [
+        "DEFAULT_GEMINI_ENDPOINT",
+        "Google GenAI client"
+      ],
+      [
+        "Docker/Compose",
+        "container-reachable address"
+      ],
+      [
+        "EXTRACT",
+        "OpenAI official API"
+      ],
+      [
+        "EXTRACT",
+        "used_for"
+      ],
+      [
+        "EXTRACT_AWS_ACCESS_KEY_ID",
+        "EXTRACT_LLM_BINDING"
+      ],
+      [
+        "EXTRACT_AWS_REGION",
+        "EXTRACT_LLM_BINDING"
+      ],
+      [
+        "EXTRACT_AWS_SECRET_ACCESS_KEY",
+        "EXTRACT_LLM_BINDING"
+      ],
+      [
+        "EXTRACT_AWS_SESSION_TOKEN",
+        "EXTRACT_LLM_BINDING"
+      ],
+      [
+        "EXTRACT_BEDROCK_LLM_MAX_TOKENS",
+        "EXTRACT_LLM_BINDING"
+      ],
+      [
+        "EXTRACT_BEDROCK_LLM_MAX_TOKENS",
+        "bedrock"
+      ],
+      [
+        "EXTRACT_BEDROCK_LLM_TEMPERATURE",
+        "EXTRACT_LLM_BINDING"
+      ],
+      [
+        "EXTRACT_LLM_BINDING",
+        "EXTRACT_LLM_BINDING_HOST"
+      ],
+      [
+        "EXTRACT_LLM_BINDING",
+        "EXTRACT_LLM_MODEL"
+      ],
+      [
+        "EXTRACT_LLM_BINDING_API_KEY",
+        "EXTRACT_LLM_OPENAI_LLM_REASONING_EFFORT"
+      ],
+      [
+        "EXTRACT_LLM_BINDING_API_KEY",
+        "LLM_BINDING_API_KEY"
+      ],
+      [
+        "EXTRACT_LLM_BINDING_HOST",
+        "EXTRACT_LLM_MODEL"
+      ],
+      [
+        "EXTRACT_LLM_BINDING_HOST",
+        "LLM_BINDING_HOST"
+      ],
+      [
+        "GEMINI_LLM_*",
+        "gemini"
+      ],
+      [
+        "Gemini Vertex AI mode",
+        "process-level Google environment variables"
+      ],
+      [
+        "Google GenAI client",
+        "Vertex AI"
+      ],
+      [
+        "KEYWORD",
+        "Qwen3.5-35B-A3B"
+      ],
+      [
+        "KEYWORD",
+        "used_for"
+      ],
+      [
+        "LLM_*",
+        "used_for"
+      ],
+      [
+        "LLM_BINDING",
+        "LLM_BINDING_API_KEY"
+      ],
+      [
+        "LLM_BINDING",
+        "LLM_BINDING_HOST"
+      ],
+      [
+        "LLM_BINDING",
+        "LLM_MODEL"
+      ],
+      [
+        "LLM_BINDING",
+        "LLM_TIMEOUT"
+      ],
+      [
+        "LLM_BINDING",
+        "MAX_ASYNC_LLM"
+      ],
+      [
+        "LLM_BINDING",
+        "OPENAI_LLM_REASONING_EFFORT"
+      ],
+      [
+        "LLM_BINDING",
+        "ROLE"
+      ],
+      [
+        "LLM_BINDING",
+        "used_for"
+      ],
+      [
+        "LLM_BINDING_API_KEY",
+        "used_for"
+      ],
+      [
+        "LLM_BINDING_HOST",
+        "used_for"
+      ],
+      [
+        "LLM_MODEL",
+        "QUERY_LLM_MODEL"
+      ],
+      [
+        "LLM_MODEL",
+        "used_for"
+      ],
+      [
+        "LLM_TIMEOUT",
+        "used_for"
+      ],
+      [
+        "LightRAG",
+        "supports"
+      ],
+      [
+        "LightRAG Server",
+        "restart"
+      ],
+      [
+        "MAX_ASYNC_LLM",
+        "QUERY_MAX_ASYNC_LLM"
+      ],
+      [
+        "MAX_ASYNC_LLM",
+        "used_for"
+      ],
+      [
+        "OLLAMA_API_KEY",
+        "ollama"
+      ],
+      [
+        "OPENAI_LLM_REASONING_EFFORT",
+        "QUERY_OPENAI_LLM_REASONING_EFFORT"
+      ],
+      [
+        "OPENAI_LLM_REASONING_EFFORT",
+        "used_for"
+      ],
+      [
+        "OpenAI official API",
+        "QUERY"
+      ],
+      [
+        "QUERY",
+        "used_for"
+      ],
+      [
+        "QUERY_LLM_BINDING",
+        "QUERY_LLM_BINDING_API_KEY"
+      ],
+      [
+        "QUERY_LLM_BINDING",
+        "QUERY_LLM_BINDING_HOST"
+      ],
+      [
+        "QUERY_LLM_BINDING",
+        "QUERY_LLM_MODEL"
+      ],
+      [
+        "QUERY_LLM_BINDING",
+        "QUERY_OPENAI_LLM_REASONING_EFFORT"
+      ],
+      [
+        "QUERY_LLM_BINDING",
+        "used_for"
+      ],
+      [
+        "QUERY_LLM_BINDING_API_KEY",
+        "used_for"
+      ],
+      [
+        "QUERY_LLM_BINDING_HOST",
+        "used_for"
+      ],
+      [
+        "QUERY_LLM_MODEL",
+        "QUERY_OPENAI_LLM_MAX_COMPLETION_TOKENS"
+      ],
+      [
+        "QUERY_LLM_MODEL",
+        "used_for"
+      ],
+      [
+        "QUERY_LLM_TIMEOUT",
+        "QUERY_MAX_ASYNC_LLM"
+      ],
+      [
+        "QUERY_LLM_TIMEOUT",
+        "used_for"
+      ],
+      [
+        "QUERY_MAX_ASYNC_LLM",
+        "used_for"
+      ],
+      [
+        "Role-level API key",
+        "lollms"
+      ],
+      [
+        "Role-level API key",
+        "ollama"
+      ],
+      [
+        "Role-level API key",
+        "openai"
+      ],
+      [
+        "Role-level host/base_url",
+        "lollms"
+      ],
+      [
+        "Role-level host/base_url",
+        "ollama"
+      ],
+      [
+        "Role-level host/base_url",
+        "openai"
+      ],
+      [
+        "VLM",
+        "used_for"
+      ],
+      [
+        "VLM_GEMINI_LLM_MAX_OUTPUT_TOKENS",
+        "used_for"
+      ],
+      [
+        "VLM_GEMINI_LLM_TEMPERATURE",
+        "used_for"
+      ],
+      [
+        "azure_openai",
+        "used_for"
+      ],
+      [
+        "base option",
+        "inherited provider option"
+      ],
+      [
+        "bedrock",
+        "used_for"
+      ],
+      [
+        "gemini",
+        "used_for"
+      ],
+      [
+        "gpt-5-mini",
+        "used_for"
+      ],
+      [
+        "gpt-5.4",
+        "openai"
+      ],
+      [
+        "inherited provider option",
+        "provider options"
+      ],
+      [
+        "lollms",
+        "ollama"
+      ],
+      [
+        "lollms",
+        "used_for"
+      ],
+      [
+        "ollama",
+        "used_for"
+      ],
+      [
+        "openai",
+        "used_for"
+      ]
+    ],
+    "count": 100,
+    "create_time": 1786009390,
+    "update_time": 1786009390,
+    "_id": "doc-9a583d83915dae1536924c9149ccfaa0"
+  },
+  "doc-3a7e545539453c5dfacd0828fae0fc39": {
+    "relation_pairs": [
+      [
+        "API Server",
+        "LightRAG"
+      ],
+      [
+        "API Server",
+        "create_app"
+      ],
+      [
+        "ExternalParserBase",
+        "LightRAG"
+      ],
+      [
+        "ExternalParserBase",
+        "MyExternalParser"
+      ],
+      [
+        "ExternalParserBase",
+        "PENDING_PARSE"
+      ],
+      [
+        "ExternalParserBase",
+        "mineru"
+      ],
+      [
+        "IRDoc",
+        "blocks"
+      ],
+      [
+        "IRDoc",
+        "document_name"
+      ],
+      [
+        "LIGHTRAG_PARSER",
+        "LightRAG"
+      ],
+      [
+        "LightRAG",
+        "LightRAG parsers"
+      ],
+      [
+        "LightRAG",
+        "PENDING_PARSE"
+      ],
+      [
+        "LightRAG",
+        "blocks_path"
+      ],
+      [
+        "LightRAG",
+        "doc_status"
+      ],
+      [
+        "LightRAG",
+        "endpoint_configured"
+      ],
+      [
+        "LightRAG",
+        "endpoint_requirement"
+      ],
+      [
+        "LightRAG",
+        "fake_rag"
+      ],
+      [
+        "LightRAG",
+        "full_docs"
+      ],
+      [
+        "LightRAG",
+        "load_third_party_parsers"
+      ],
+      [
+        "LightRAG",
+        "worker"
+      ],
+      [
+        "MyEngine",
+        "parser_spec"
+      ],
+      [
+        "MyExternalParser",
+        "MyParser"
+      ],
+      [
+        "MyExternalParser",
+        "external_service"
+      ],
+      [
+        "MyPackage",
+        "MyParser"
+      ],
+      [
+        "MyParser",
+        "my_pkg"
+      ],
+      [
+        "NativeEngine",
+        "parser_spec"
+      ],
+      [
+        "ParseContext",
+        "engine"
+      ],
+      [
+        "ParserSpec",
+        "register_parser"
+      ],
+      [
+        "Unit-test",
+        "build_debug_rag"
+      ],
+      [
+        "Unit-test",
+        "get_parser"
+      ],
+      [
+        "Unit-test",
+        "parse"
+      ],
+      [
+        "_persist_parsed_full_docs",
+        "engine"
+      ],
+      [
+        "_resolve_source_file_for_parser",
+        "engine"
+      ],
+      [
+        "asset_dir",
+        "asset_dir_name"
+      ],
+      [
+        "concurrency",
+        "parser_spec"
+      ],
+      [
+        "content_data",
+        "engine"
+      ],
+      [
+        "doc_id",
+        "engine"
+      ],
+      [
+        "doc_status",
+        "engine"
+      ],
+      [
+        "docling",
+        "parser_spec"
+      ],
+      [
+        "download_into",
+        "source_path"
+      ],
+      [
+        "download_into",
+        "upload_name"
+      ],
+      [
+        "endpoint_configured",
+        "parser_spec"
+      ],
+      [
+        "endpoint_requirement",
+        "engine"
+      ],
+      [
+        "endpoint_requirement",
+        "parser_spec"
+      ],
+      [
+        "engine",
+        "file_path"
+      ],
+      [
+        "engine",
+        "full_docs"
+      ],
+      [
+        "engine",
+        "myengine"
+      ],
+      [
+        "frozenset",
+        "parser_spec"
+      ],
+      [
+        "is_bundle_valid",
+        "raw_dir"
+      ],
+      [
+        "max_parallel_parse",
+        "parser_spec"
+      ],
+      [
+        "max_parallel_parse",
+        "queue_group"
+      ],
+      [
+        "mineru",
+        "parser_spec"
+      ],
+      [
+        "my_pkg",
+        "myengine"
+      ],
+      [
+        "os",
+        "register_parser"
+      ],
+      [
+        "parser_spec",
+        "queue_group"
+      ],
+      [
+        "parser_spec",
+        "register_parser"
+      ],
+      [
+        "parser_spec",
+        "user_selectable"
+      ]
+    ],
+    "count": 56,
+    "create_time": 1786009781,
+    "update_time": 1786009781,
+    "_id": "doc-3a7e545539453c5dfacd0828fae0fc39"
+  },
+  "doc-1c9ad9caff9f78bc752ac6a5d55c8af6": {
+    "relation_pairs": [
+      [
+        "CI",
+        "uv.lock"
+      ],
+      [
+        "Code Review",
+        "uv.lock"
+      ],
+      [
+        "Docker",
+        "uv.lock"
+      ],
+      [
+        "Node.js package-lock.json",
+        "uv.lock"
+      ],
+      [
+        "Offline Dependency",
+        "uv.lock"
+      ],
+      [
+        "Production",
+        "uv.lock"
+      ],
+      [
+        "Python Poetry poetry.lock",
+        "uv.lock"
+      ],
+      [
+        "Rust Cargo.lock",
+        "uv.lock"
+      ],
+      [
+        "git",
+        "uv.lock"
+      ],
+      [
+        "pyproject.toml",
+        "uv.lock"
+      ],
+      [
+        "requirements.txt",
+        "uv.lock"
+      ],
+      [
+        "uv add <pkg>",
+        "uv lock"
+      ],
+      [
+        "uv lock",
+        "uv lock --upgrade"
+      ],
+      [
+        "uv lock",
+        "uv remove <pkg>"
+      ],
+      [
+        "uv lock",
+        "uv sync"
+      ],
+      [
+        "uv lock",
+        "uv sync --frozen"
+      ],
+      [
+        "uv.add",
+        "uv.lock"
+      ],
+      [
+        "uv.lock",
+        "uv.lock --upgrade"
+      ],
+      [
+        "uv.lock",
+        "uv.remove"
+      ],
+      [
+        "uv.lock",
+        "uv.sync"
+      ],
+      [
+        "uv.lock",
+        "uv.sync --frozen"
+      ],
+      [
+        "uv.lock",
+        "uv.tree"
+      ]
+    ],
+    "count": 22,
+    "create_time": 1786009855,
+    "update_time": 1786009855,
+    "_id": "doc-1c9ad9caff9f78bc752ac6a5d55c8af6"
+  },
+  "doc-b3a691fd7a7b44653de8f16248cba628": {
+    "relation_pairs": [
+      [
+        "Completion Requests",
+        "LLM Caching"
+      ],
+      [
+        "Completion Requests",
+        "Prompt and Tuning Parameters"
+      ],
+      [
+        "Custom Implementation",
+        "Custom Provider"
+      ],
+      [
+        "Custom Log Writing Location",
+        "logger"
+      ],
+      [
+        "Custom Pipeline",
+        "pipeline + workflows"
+      ],
+      [
+        "Custom Provider",
+        "language model"
+      ],
+      [
+        "Custom Storage Provider",
+        "storage"
+      ],
+      [
+        "Custom Vector Store",
+        "Sample Notebook"
+      ],
+      [
+        "Custom Vector Store",
+        "vector store"
+      ],
+      [
+        "Custom Workflow Steps",
+        "pipeline + workflows"
+      ],
+      [
+        "Default Configuration Mode",
+        "Indexing Engine"
+      ],
+      [
+        "End-User Experience",
+        "LLM Caching"
+      ],
+      [
+        "Factory Pattern",
+        "GraphRAG"
+      ],
+      [
+        "Factory Pattern",
+        "cache"
+      ],
+      [
+        "Factory Pattern",
+        "input reader"
+      ],
+      [
+        "Factory Pattern",
+        "language model"
+      ],
+      [
+        "Factory Pattern",
+        "logger"
+      ],
+      [
+        "Factory Pattern",
+        "pipeline + workflows"
+      ],
+      [
+        "Factory Pattern",
+        "storage"
+      ],
+      [
+        "Factory Pattern",
+        "vector store"
+      ],
+      [
+        "GraphRAG Knowledge Model",
+        "GraphRAG indexing pipeline"
+      ],
+      [
+        "GraphRAG Knowledge Model",
+        "Indexing Engine"
+      ],
+      [
+        "GraphRAG library",
+        "LLM Caching"
+      ],
+      [
+        "Source Code",
+        "language model"
+      ]
+    ],
+    "count": 24,
+    "create_time": 1786009991,
+    "update_time": 1786009991,
+    "_id": "doc-b3a691fd7a7b44653de8f16248cba628"
+  },
+  "doc-2b98744f5be2040b1221f30ff6014670": {
+    "relation_pairs": [
+      [
+        "Adam Bradley",
+        "Published"
+      ],
+      [
+        "Alonso Guevara Fernández",
+        "Published"
+      ],
+      [
+        "Ben Cutler",
+        "Published"
+      ],
+      [
+        "Bryan Li",
+        "Published"
+      ],
+      [
+        "Darren Edge",
+        "Published"
+      ],
+      [
+        "GraphRAG",
+        "Narrative Private Data"
+      ],
+      [
+        "Ha Trinh",
+        "Published"
+      ],
+      [
+        "Jonathan Larson",
+        "Published"
+      ],
+      [
+        "Joshua Bradley",
+        "Published"
+      ],
+      [
+        "Julian Whiting",
+        "Published"
+      ],
+      [
+        "Katy Smith",
+        "Published"
+      ],
+      [
+        "Nathan Evans",
+        "Published"
+      ],
+      [
+        "Published",
+        "Sarah Smith"
+      ],
+      [
+        "Published",
+        "Steven Truitt"
+      ],
+      [
+        "Published",
+        "Zachary Hills"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1786010036,
+    "update_time": 1786010036,
+    "_id": "doc-2b98744f5be2040b1221f30ff6014670"
+  },
+  "doc-04e9a4e23946a2a3618f112c8e332247": {
+    "relation_pairs": [
+      [
+        "GraphRAG",
+        "entities.parquet"
+      ],
+      [
+        "GraphRAG",
+        "relationships.parquet"
+      ],
+      [
+        "GraphRAG",
+        "text_units.parquet"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1786010090,
+    "update_time": 1786010090,
+    "_id": "doc-04e9a4e23946a2a3618f112c8e332247"
+  },
+  "doc-adb132f201cb76c08df5059c6ef17d50": {
+    "relation_pairs": [
+      [
+        "Claim Extraction",
+        "Graph Outputs"
+      ],
+      [
+        "Claim Extraction",
+        "Graph Summarization"
+      ],
+      [
+        "Claim Extraction",
+        "Graph Tables"
+      ],
+      [
+        "Claim Extraction",
+        "TextUnits"
+      ],
+      [
+        "Community",
+        "Community Report"
+      ],
+      [
+        "Community",
+        "Graph Extraction"
+      ],
+      [
+        "Community Detection",
+        "Community Outputs"
+      ],
+      [
+        "Community Detection",
+        "Graph Tables"
+      ],
+      [
+        "Community Outputs",
+        "Summarized Communities"
+      ],
+      [
+        "Community Reports Table",
+        "Content Embedding"
+      ],
+      [
+        "Community Reports Table",
+        "Summarized Communities"
+      ],
+      [
+        "CommunityReportsTable",
+        "ContentEmbedding"
+      ],
+      [
+        "Covariate",
+        "Entity"
+      ],
+      [
+        "Description Embedding",
+        "Graph Tables"
+      ],
+      [
+        "DescriptionEmbedding",
+        "GraphTables"
+      ],
+      [
+        "Documents",
+        "TextUnits"
+      ],
+      [
+        "Entity",
+        "Relationship"
+      ],
+      [
+        "Entity",
+        "TextUnits"
+      ],
+      [
+        "Entity & Relationship Extraction",
+        "Graph Summarization"
+      ],
+      [
+        "Graph Extraction",
+        "Graph Summarization"
+      ],
+      [
+        "Graph Extraction",
+        "TextUnits"
+      ],
+      [
+        "Relationship",
+        "TextUnits"
+      ],
+      [
+        "Text Embedding",
+        "TextUnits"
+      ],
+      [
+        "TextEmbedding",
+        "TextUnits"
+      ]
+    ],
+    "count": 24,
+    "create_time": 1786010163,
+    "update_time": 1786010163,
+    "_id": "doc-adb132f201cb76c08df5059c6ef17d50"
+  },
+  "doc-d95b43a628346e7ee1a5f533d185d667": {
+    "relation_pairs": [
+      [
+        "Python 3.10-3.12",
+        "uv"
+      ],
+      [
+        "uv",
+        "uv run poe build"
+      ],
+      [
+        "uv",
+        "uv run poe check"
+      ],
+      [
+        "uv",
+        "uv run poe fix"
+      ],
+      [
+        "uv",
+        "uv run poe fix_unsafe"
+      ],
+      [
+        "uv",
+        "uv run poe format"
+      ],
+      [
+        "uv",
+        "uv run poe index"
+      ],
+      [
+        "uv",
+        "uv run poe query"
+      ],
+      [
+        "uv",
+        "uv run poe test"
+      ],
+      [
+        "uv",
+        "uv run poe test_integration"
+      ],
+      [
+        "uv",
+        "uv run poe test_smoke"
+      ],
+      [
+        "uv",
+        "uv run poe test_unit"
+      ],
+      [
+        "uv",
+        "uv run poe test_verbs"
+      ],
+      [
+        "uv",
+        "uv sync --all-packages"
+      ],
+      [
+        "uv run poe index",
+        "uv run poe query"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1786010231,
+    "update_time": 1786010231,
+    "_id": "doc-d95b43a628346e7ee1a5f533d185d667"
+  },
+  "doc-640e5c41fd121c0003f70f439e8b3b48": {
+    "relation_pairs": [
+      [
+        "A Christmas Carol",
+        "Charles Dickens"
+      ],
+      [
+        "A Christmas Carol",
+        "Gutenberg"
+      ],
+      [
+        "API_KEY",
+        "GraphRAG"
+      ],
+      [
+        "Azure OpenAI",
+        "GraphRAG"
+      ],
+      [
+        "CLI",
+        "GraphRAG"
+      ],
+      [
+        "CLI documentation",
+        "GraphRAG"
+      ],
+      [
+        "Global search",
+        "GraphRAG"
+      ],
+      [
+        "GraphRAG",
+        "Initialization documentation"
+      ],
+      [
+        "GraphRAG",
+        "Local search"
+      ],
+      [
+        "GraphRAG",
+        "OpenAI"
+      ],
+      [
+        "GraphRAG",
+        "Python"
+      ],
+      [
+        "GraphRAG",
+        "Query Engine"
+      ],
+      [
+        "GraphRAG",
+        "az login"
+      ],
+      [
+        "GraphRAG",
+        "chat and embedding models"
+      ],
+      [
+        "GraphRAG",
+        "command line"
+      ],
+      [
+        "GraphRAG",
+        "configuration documentation"
+      ],
+      [
+        "GraphRAG",
+        "graphrag init"
+      ],
+      [
+        "GraphRAG",
+        "input"
+      ],
+      [
+        "GraphRAG",
+        "managed auth"
+      ],
+      [
+        "GraphRAG",
+        "parquet files"
+      ],
+      [
+        "GraphRAG",
+        "pipeline"
+      ],
+      [
+        "GraphRAG",
+        "pypi"
+      ],
+      [
+        "GraphRAG",
+        "settings.yaml"
+      ],
+      [
+        "GraphRAG",
+        "subscription"
+      ],
+      [
+        "GraphRAG",
+        "text"
+      ],
+      [
+        "GraphRAG",
+        "venv"
+      ],
+      [
+        "GraphRAG",
+        "virtual environment"
+      ],
+      [
+        "GraphRAG",
+        "visualization guide"
+      ]
+    ],
+    "count": 28,
+    "create_time": 1786010327,
+    "update_time": 1786010327,
+    "_id": "doc-640e5c41fd121c0003f70f439e8b3b48"
+  },
+  "doc-0f80f5fd1e3eb31ff80fc35d1fcf0198": {
+    "relation_pairs": [
+      [
+        "Basic Search",
+        "GraphRAG"
+      ],
+      [
+        "Breaking changes",
+        "GraphRAG"
+      ],
+      [
+        "Community summaries",
+        "GraphRAG"
+      ],
+      [
+        "DRIFT Search",
+        "GraphRAG"
+      ],
+      [
+        "Global Search",
+        "GraphRAG"
+      ],
+      [
+        "Graph Machine Learning",
+        "GraphRAG"
+      ],
+      [
+        "GraphRAG",
+        "Hierarchical clustering"
+      ],
+      [
+        "GraphRAG",
+        "Indexer"
+      ],
+      [
+        "GraphRAG",
+        "Knowledge Graph"
+      ],
+      [
+        "GraphRAG",
+        "Local Search"
+      ],
+      [
+        "GraphRAG",
+        "Microsoft Research Blog Post"
+      ],
+      [
+        "GraphRAG",
+        "Private datasets"
+      ],
+      [
+        "GraphRAG",
+        "Prompt Tuning Guide"
+      ],
+      [
+        "GraphRAG",
+        "Query"
+      ],
+      [
+        "GraphRAG",
+        "Retrieval Augmented Generation (RAG)"
+      ],
+      [
+        "GraphRAG",
+        "TextUnits"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1786010384,
+    "update_time": 1786010384,
+    "_id": "doc-0f80f5fd1e3eb31ff80fc35d1fcf0198"
+  },
+  "doc-e19e78061b434feb53d27d2650de9433": {
+    "relation_pairs": [
+      [
+        "$229 billion state budget",
+        "include policy provisions"
+      ],
+      [
+        "2019 bail reforms",
+        "New York"
+      ],
+      [
+        "Biden administration",
+        "end"
+      ],
+      [
+        "Biden administration",
+        "move to treat"
+      ],
+      [
+        "Dr. Ashish Jha",
+        "White House COVID-19 coordinator"
+      ],
+      [
+        "Floor debates argued against policy",
+        "budget"
+      ],
+      [
+        "Floor debates expected to end",
+        "budget"
+      ],
+      [
+        "Floor debates included provisions",
+        "budget"
+      ],
+      [
+        "Floor debates pushed through change",
+        "budget"
+      ],
+      [
+        "Floor debates started",
+        "budget"
+      ],
+      [
+        "Gov. Kathy Hochul",
+        "State Senate Majority Leader Andrea Stewart-Cousins"
+      ],
+      [
+        "Governor Kathy Hochul",
+        "New York"
+      ],
+      [
+        "Governor Kathy Hochul",
+        "negotiating budget"
+      ],
+      [
+        "Governor Kathy Hochul",
+        "pushing through change"
+      ],
+      [
+        "Head Start educators",
+        "lifting of requirements"
+      ],
+      [
+        "Legislature",
+        "debating budget"
+      ],
+      [
+        "New York",
+        "ban gas stoves and furnaces"
+      ],
+      [
+        "New York",
+        "budget"
+      ],
+      [
+        "New York",
+        "illicit pot shops crackdown"
+      ],
+      [
+        "New York",
+        "liberal lawmakers"
+      ],
+      [
+        "New York",
+        "minimum wage increase"
+      ],
+      [
+        "New York City",
+        "minimum wage increase"
+      ],
+      [
+        "New York State",
+        "minimum wage increase"
+      ],
+      [
+        "New York lawmakers",
+        "debating budget"
+      ],
+      [
+        "President Joe Biden",
+        "White House COVID-19 coordinator"
+      ],
+      [
+        "State Senate Majority Leader Andrea Stewart-Cousins",
+        "expecting voting to wrap up"
+      ],
+      [
+        "arguing against policy",
+        "liberal lawmakers"
+      ],
+      [
+        "arguing for policy",
+        "liberal lawmakers"
+      ],
+      [
+        "budget",
+        "contains"
+      ],
+      [
+        "budget",
+        "debated in Albany"
+      ],
+      [
+        "budget",
+        "due date missed"
+      ],
+      [
+        "budget",
+        "state officials"
+      ],
+      [
+        "end of requirements",
+        "federal contractors"
+      ],
+      [
+        "end of requirements",
+        "federal workers"
+      ],
+      [
+        "end of requirements",
+        "foreign air travelers"
+      ],
+      [
+        "healthcare workers",
+        "lifting of requirements"
+      ],
+      [
+        "increase in New York City",
+        "minimum wage"
+      ],
+      [
+        "increase in the rest of New York State",
+        "minimum wage"
+      ],
+      [
+        "lifting of requirements",
+        "noncitizens at U.S. land borders"
+      ]
+    ],
+    "count": 39,
+    "create_time": 1786010519,
+    "update_time": 1786010519,
+    "_id": "doc-e19e78061b434feb53d27d2650de9433"
+  },
+  "doc-15ee7c6b211b6ac87701bf817a50f7cb": {
+    "relation_pairs": [
+      [
+        "GraphRAG indexer",
+        "knowledge discovery"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1786010608,
+    "update_time": 1786010608,
+    "_id": "doc-15ee7c6b211b6ac87701bf817a50f7cb"
+  },
+  "doc-b98dce4eef8d1a08af62b430c1fe835e": {
+    "relation_pairs": [
+      [
+        "CFG",
+        "is used"
+      ],
+      [
+        "FastGraphRAG",
+        "substitutes"
+      ],
+      [
+        "FastGraphRAG",
+        "uses"
+      ],
+      [
+        "GraphRAG",
+        "uses"
+      ],
+      [
+        "NLTK",
+        "is used"
+      ],
+      [
+        "SpaCy models",
+        "are required"
+      ],
+      [
+        "Standard GraphRAG",
+        "includes"
+      ],
+      [
+        "Standard GraphRAG",
+        "uses"
+      ],
+      [
+        "`en_core_web_md",
+        "is used"
+      ],
+      [
+        "`model_name",
+        "is installed"
+      ],
+      [
+        "co-occurrence graph",
+        "represents"
+      ],
+      [
+        "extracts",
+        "language model"
+      ],
+      [
+        "is based upon",
+        "memory model"
+      ],
+      [
+        "is configured",
+        "text chunking"
+      ],
+      [
+        "is used",
+        "semantic parsing"
+      ],
+      [
+        "is used",
+        "spaCy"
+      ]
+    ],
+    "count": 16,
+    "create_time": 1786010677,
+    "update_time": 1786010677,
+    "_id": "doc-b98dce4eef8d1a08af62b430c1fe835e"
+  },
+  "doc-fd8258c21670b054775f36f15f4d389d": {
+    "relation_pairs": [
+      [
+        "All tables",
+        "have"
+      ],
+      [
+        "are",
+        "communities"
+      ],
+      [
+        "communities",
+        "generated by"
+      ],
+      [
+        "community",
+        "has"
+      ],
+      [
+        "conceptual knowledge model",
+        "default pipeline"
+      ],
+      [
+        "covariate",
+        "has"
+      ],
+      [
+        "covariates",
+        "extracted if"
+      ],
+      [
+        "default pipeline",
+        "writes to"
+      ],
+      [
+        "document",
+        "has"
+      ],
+      [
+        "documents",
+        "list"
+      ],
+      [
+        "entities",
+        "found by"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1786010782,
+    "update_time": 1786010782,
+    "_id": "doc-fd8258c21670b054775f36f15f4d389d"
+  },
+  "doc-37ac2e652be419ab7d9491e584ea178d": {
+    "relation_pairs": [
+      [
+        "Auto Tuning",
+        "GraphRAG indexing engine"
+      ],
+      [
+        "Auto Tuning",
+        "auto_prompt_tuning.md"
+      ],
+      [
+        "Auto Tuning",
+        "is highly encouraged"
+      ],
+      [
+        "Auto Tuning",
+        "manual tuning"
+      ],
+      [
+        "Auto Tuning",
+        "yields better results"
+      ],
+      [
+        "GraphRAG indexing engine",
+        "Index Run"
+      ],
+      [
+        "GraphRAG indexing engine",
+        "LLM interactions"
+      ],
+      [
+        "GraphRAG indexing engine",
+        "Prompt Tuning"
+      ],
+      [
+        "GraphRAG indexing engine",
+        "default prompts"
+      ],
+      [
+        "GraphRAG indexing engine",
+        "executes Index Run"
+      ],
+      [
+        "GraphRAG indexing engine",
+        "indexing and query"
+      ],
+      [
+        "GraphRAG indexing engine",
+        "knowledge graph"
+      ],
+      [
+        "GraphRAG indexing engine",
+        "manual tuning"
+      ],
+      [
+        "GraphRAG indexing engine",
+        "provides details"
+      ],
+      [
+        "default prompts",
+        "manual tuning"
+      ],
+      [
+        "is an advanced use-case",
+        "manual tuning"
+      ],
+      [
+        "manual tuning",
+        "manual_prompt_tuning.md"
+      ]
+    ],
+    "count": 17,
+    "create_time": 1786010884,
+    "update_time": 1786010884,
+    "_id": "doc-37ac2e652be419ab7d9491e584ea178d"
+  },
+  "doc-753b54f11987ea184b7a7af0bb9e15ee": {
+    "relation_pairs": [
+      [
+        "Appearance",
+        "Used for, Coloring nodes in Gephi"
+      ],
+      [
+        "Contains, graph.graphml",
+        "output folder"
+      ],
+      [
+        "Contains, parquet files",
+        "Gephi"
+      ],
+      [
+        "Degree Centrality",
+        "Used for, Resizing nodes in Gephi"
+      ],
+      [
+        "Dissuade Hubs",
+        "Used for, Preventing overlap in Gephi"
+      ],
+      [
+        "ForceAtlas2",
+        "Used for, Arranging nodes in Gephi"
+      ],
+      [
+        "Installed in, Gephi",
+        "Leiden Algorithm"
+      ],
+      [
+        "Knowledge Graph",
+        "graphrag"
+      ],
+      [
+        "Knowledge Graph",
+        "settings.yaml"
+      ],
+      [
+        "Layout",
+        "Used for, Arranging nodes in Gephi"
+      ],
+      [
+        "LinLog mode",
+        "Used for, Scaling in ForceAtlas2"
+      ],
+      [
+        "Modularity",
+        "Used for, Setting in Leiden Algorithm"
+      ],
+      [
+        "OpenORD",
+        "Used for, Arranging nodes in Gephi"
+      ],
+      [
+        "Prevent Overlap",
+        "Used for, Preventing overlap in ForceAtlas2"
+      ],
+      [
+        "Result of, Organizing graph in Gephi",
+        "analysis"
+      ],
+      [
+        "Statistics",
+        "Used for, Running"
+      ],
+      [
+        "Text Labels",
+        "Used for, Describing nodes in Gephi"
+      ],
+      [
+        "graphrag",
+        "output folder"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1786010992,
+    "update_time": 1786010992,
+    "_id": "doc-753b54f11987ea184b7a7af0bb9e15ee"
+  }
+}
