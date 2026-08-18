@@ -1,0 +1,18 @@
+{
+  "framework": "HippoRAG",
+  "version": "2.0.0",
+  "llm_model": "glm-4-flash",
+  "embedding_model": "/mnt/hdd/Database/01_Reference/OpenSource/LLM/12_Model/NV-Embed-v2",
+  "total_questions": 89,
+  "index_time_s": 2192.4,
+  "index_time_min": 36.5,
+  "boundary_refusal_rate": 0.053,
+  "p90_latency_ms": 83994.8,
+  "avg_latency_ms": 30050.6,
+  "answer_match_by_type": {
+    "single_hop": 0.122,
+    "multi_hop": 0.163,
+    "boundary": 0.021
+  },
+  "note": "answer_match uses keyword overlap (Jaccard), not LLM judge"
+}

@@ -1,0 +1,18 @@
+{
+  "framework": "GraphRAG",
+  "version": "3.1.1",
+  "query_mode": "local",
+  "llm_model": "glm-4-flash",
+  "total_questions": 89,
+  "index_time_s": 1868.8,
+  "index_time_min": 31.1,
+  "boundary_refusal_rate": 0.158,
+  "p90_latency_ms": 32356.5,
+  "avg_latency_ms": 26612.9,
+  "answer_match_by_type": {
+    "single_hop": 0.107,
+    "multi_hop": 0.211,
+    "boundary": 0.03
+  },
+  "note": "answer_match uses keyword overlap (Jaccard), not LLM judge"
+}

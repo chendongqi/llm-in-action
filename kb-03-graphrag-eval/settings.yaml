@@ -1,0 +1,132 @@
+### GraphRAG 评测配置
+### 使用 GLM-4-flash (OpenAI-compatible) 作为 LLM
+### 使用 BGE-large-en-v1.5 (SiliconFlow) 作为 Embedding
+
+completion_models:
+  default_completion_model:
+    model_provider: openai
+    model: glm-4-flash
+    auth_method: api_key
+    api_key: ${GRAPHRAG_LLM_API_KEY}
+    api_base: ${GRAPHRAG_LLM_BASE_URL}
+    retry:
+      type: exponential_backoff
+      max_retries: 5
+      max_retry_wait: 30
+
+embedding_models:
+  default_embedding_model:
+    model_provider: openai
+    model: BAAI/bge-large-en-v1.5
+    auth_method: api_key
+    api_key: ${GRAPHRAG_EMBEDDING_API_KEY}
+    api_base: ${GRAPHRAG_EMBEDDING_BASE_URL}
+    retry:
+      type: exponential_backoff
+      max_retries: 5
+      max_retry_wait: 30
+
+input:
+  type: text
+  file_pattern: ".*\\.md$$"
+
+chunking:
+  type: tokens
+  size: 1200
+  overlap: 100
+  encoding_model: o200k_base
+
+input_storage:
+  type: file
+  base_dir: "input"
+
+output_storage:
+  type: file
+  base_dir: "output"
+
+reporting:
+  type: file
+  base_dir: "logs"
+
+cache:
+  type: json
+  storage:
+    type: file
+    base_dir: "cache"
+
+vector_store:
+  type: lancedb
+  db_uri: "lancedb"
+  vector_size: 1024
+
+workflows:
+  - create_base_text_units
+  - create_final_documents
+  - extract_graph
+  - finalize_graph
+  - extract_covariates
+  - create_communities
+  - create_final_text_units
+  - generate_text_embeddings
+
+embed_text:
+  embedding_model_id: default_embedding_model
+  batch_max_tokens: 300
+
+extract_graph:
+  completion_model_id: default_completion_model
+  prompt: "prompts/extract_graph.txt"
+  entity_types: [organization, person, geo, event, technology, concept]
+  max_gleanings: 1
+
+summarize_descriptions:
+  completion_model_id: default_completion_model
+  prompt: "prompts/summarize_descriptions.txt"
+  max_length: 500
+
+extract_graph_nlp:
+  text_analyzer:
+    extractor_type: regex_english
+
+cluster_graph:
+  max_cluster_size: 10
+
+extract_claims:
+  enabled: false
+  completion_model_id: default_completion_model
+  prompt: "prompts/extract_claims.txt"
+  description: "Any claims or facts that could be relevant to information discovery."
+  max_gleanings: 1
+
+community_reports:
+  completion_model_id: default_completion_model
+  graph_prompt: "prompts/community_report_graph.txt"
+  text_prompt: "prompts/community_report_text.txt"
+  max_length: 2000
+  max_input_length: 8000
+
+snapshots:
+  graphml: false
+  embeddings: false
+
+local_search:
+  completion_model_id: default_completion_model
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/local_search_system_prompt.txt"
+
+global_search:
+  completion_model_id: default_completion_model
+  map_prompt: "prompts/global_search_map_system_prompt.txt"
+  reduce_prompt: "prompts/global_search_reduce_system_prompt.txt"
+  knowledge_prompt: "prompts/global_search_knowledge_system_prompt.txt"
+
+drift_search:
+  completion_model_id: default_completion_model
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/drift_search_system_prompt.txt"
+  reduce_prompt: "prompts/drift_search_reduce_prompt.txt"
+
+basic_search:
+  completion_model_id: default_completion_model
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/basic_search_system_prompt.txt"
