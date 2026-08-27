@@ -1,0 +1,24 @@
+{
+  "framework": "HyperGraphRAG",
+  "version": "1.0.6",
+  "query_mode": "hybrid",
+  "llm_model": "glm-4-flash",
+  "embedding_model": "BAAI/bge-large-en-v1.5",
+  "total_questions": 89,
+  "index_time_s": 26594.0,
+  "index_time_min": 443.2,
+  "boundary_refusal_rate": 0.263,
+  "p90_latency_ms": 49265.7,
+  "avg_latency_ms": 29592.7,
+  "answer_match_by_type": {
+    "single_hop": 0.0,
+    "": 0.0,
+    "what": 0.0,
+    "when": 0.0,
+    "who": 0.0,
+    "which": 0.0,
+    "multi_hop": 0.0,
+    "boundary": 0.0
+  },
+  "note": "answer_match uses keyword overlap (Jaccard), not LLM judge"
+}

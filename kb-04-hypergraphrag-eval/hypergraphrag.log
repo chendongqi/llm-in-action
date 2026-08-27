@@ -1,0 +1,620 @@
+2026-08-20 11:04:51,189 - hypergraphrag - INFO - Logger initialized for working directory: /mnt/hdd/Database/03_Projects/LLM/llm-in-action/kb-04-hypergraphrag-eval/data/workspace
+2026-08-20 11:04:51,190 - hypergraphrag - INFO - Load KV llm_response_cache with 0 data
+2026-08-20 11:04:51,190 - hypergraphrag - INFO - Load KV full_docs with 0 data
+2026-08-20 11:04:51,190 - hypergraphrag - INFO - Load KV text_chunks with 0 data
+2026-08-20 11:04:51,246 - hypergraphrag - INFO - [New Docs] inserting 31 docs
+2026-08-20 11:04:52,289 - hypergraphrag - INFO - [New Chunks] inserting 124 chunks
+2026-08-20 11:04:52,289 - hypergraphrag - INFO - Inserting 124 vectors to chunks
+2026-08-20 11:04:52,695 - hypergraphrag - INFO - Writing graph with 0 nodes, 0 edges
+2026-08-20 11:40:07,095 - hypergraphrag - INFO - Logger initialized for working directory: /mnt/hdd/Database/03_Projects/LLM/llm-in-action/kb-04-hypergraphrag-eval/data/workspace
+2026-08-20 11:40:07,096 - hypergraphrag - INFO - Load KV llm_response_cache with 0 data
+2026-08-20 11:40:07,096 - hypergraphrag - INFO - Load KV full_docs with 0 data
+2026-08-20 11:40:07,096 - hypergraphrag - INFO - Load KV text_chunks with 0 data
+2026-08-20 11:40:07,098 - hypergraphrag - INFO - Loaded graph from /mnt/hdd/Database/03_Projects/LLM/llm-in-action/kb-04-hypergraphrag-eval/data/workspace/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2026-08-20 11:40:07,106 - hypergraphrag - INFO - [New Docs] inserting 31 docs
+2026-08-20 11:40:08,131 - hypergraphrag - INFO - [New Chunks] inserting 124 chunks
+2026-08-20 11:40:08,132 - hypergraphrag - INFO - Inserting 124 vectors to chunks
+2026-08-20 11:40:08,476 - hypergraphrag - INFO - Writing graph with 0 nodes, 0 edges
+2026-08-20 13:30:48,055 - hypergraphrag - INFO - Logger initialized for working directory: /mnt/hdd/Database/03_Projects/LLM/llm-in-action/kb-04-hypergraphrag-eval/data/workspace
+2026-08-20 13:30:48,055 - hypergraphrag - INFO - Load KV llm_response_cache with 0 data
+2026-08-20 13:30:48,055 - hypergraphrag - INFO - Load KV full_docs with 0 data
+2026-08-20 13:30:48,056 - hypergraphrag - INFO - Load KV text_chunks with 0 data
+2026-08-20 13:30:48,057 - hypergraphrag - INFO - Loaded graph from /mnt/hdd/Database/03_Projects/LLM/llm-in-action/kb-04-hypergraphrag-eval/data/workspace/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2026-08-20 13:30:48,063 - hypergraphrag - INFO - [New Docs] inserting 31 docs
+2026-08-20 13:30:49,034 - hypergraphrag - INFO - [New Chunks] inserting 124 chunks
+2026-08-20 13:30:49,035 - hypergraphrag - INFO - Inserting 124 vectors to chunks
+2026-08-20 13:31:16,287 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-20 14:25:16,734 - hypergraphrag - INFO - Writing graph with 0 nodes, 0 edges
+2026-08-20 14:36:33,002 - hypergraphrag - INFO - Logger initialized for working directory: /mnt/hdd/Database/03_Projects/LLM/llm-in-action/kb-04-hypergraphrag-eval/data/workspace
+2026-08-20 14:36:33,003 - hypergraphrag - INFO - Load KV llm_response_cache with 0 data
+2026-08-20 14:36:33,003 - hypergraphrag - INFO - Load KV full_docs with 0 data
+2026-08-20 14:36:33,003 - hypergraphrag - INFO - Load KV text_chunks with 0 data
+2026-08-20 14:36:33,004 - hypergraphrag - INFO - Loaded graph from /mnt/hdd/Database/03_Projects/LLM/llm-in-action/kb-04-hypergraphrag-eval/data/workspace/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2026-08-20 14:36:33,010 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-20 14:36:33,489 - hypergraphrag - INFO - [New Chunks] inserting 2 chunks
+2026-08-20 14:36:33,489 - hypergraphrag - INFO - Inserting 2 vectors to chunks
+2026-08-20 14:36:33,882 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-20 14:44:43,064 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-20 14:44:43,067 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-20 14:44:43,073 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-20 14:44:43,076 - hypergraphrag - INFO - Inserting 59 vectors to hyperedges
+2026-08-20 14:44:47,370 - hypergraphrag - INFO - Inserting 48 vectors to entities
+2026-08-20 14:44:50,774 - hypergraphrag - INFO - Writing graph with 107 nodes, 59 edges
+2026-08-20 14:44:50,848 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-20 14:44:50,854 - hypergraphrag - INFO - [New Chunks] inserting 4 chunks
+2026-08-20 14:44:50,854 - hypergraphrag - INFO - Inserting 4 vectors to chunks
+2026-08-20 14:44:51,301 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-20 14:55:26,694 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-20 14:55:26,698 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-20 14:55:26,713 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-20 14:55:26,716 - hypergraphrag - INFO - Inserting 73 vectors to hyperedges
+2026-08-20 14:55:32,914 - hypergraphrag - INFO - Inserting 168 vectors to entities
+2026-08-20 14:55:49,244 - hypergraphrag - INFO - Writing graph with 343 nodes, 274 edges
+2026-08-20 14:55:49,257 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-20 14:55:49,286 - hypergraphrag - INFO - [New Chunks] inserting 23 chunks
+2026-08-20 14:55:49,286 - hypergraphrag - INFO - Inserting 23 vectors to chunks
+2026-08-20 14:55:53,664 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-20 16:10:00,811 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-20 16:10:00,823 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-20 16:10:00,906 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-20 16:10:00,924 - hypergraphrag - INFO - Inserting 438 vectors to hyperedges
+2026-08-20 16:10:43,491 - hypergraphrag - INFO - Inserting 654 vectors to entities
+2026-08-20 16:11:50,325 - hypergraphrag - INFO - Writing graph with 1425 nodes, 1183 edges
+2026-08-20 16:11:50,419 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-20 16:11:50,431 - hypergraphrag - INFO - [New Chunks] inserting 2 chunks
+2026-08-20 16:11:50,431 - hypergraphrag - INFO - Inserting 2 vectors to chunks
+2026-08-20 16:11:50,783 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-20 16:22:26,751 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-20 16:22:26,752 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-20 16:22:26,764 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-20 16:22:26,766 - hypergraphrag - INFO - Inserting 16 vectors to hyperedges
+2026-08-20 16:22:28,322 - hypergraphrag - INFO - Inserting 70 vectors to entities
+2026-08-20 16:22:35,852 - hypergraphrag - INFO - Writing graph with 1509 nodes, 1274 edges
+2026-08-20 16:22:35,960 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-20 16:22:35,970 - hypergraphrag - INFO - [New Chunks] inserting 3 chunks
+2026-08-20 16:22:35,970 - hypergraphrag - INFO - Inserting 3 vectors to chunks
+2026-08-20 16:22:36,408 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-20 16:32:01,120 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-20 16:32:01,125 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-20 16:32:01,135 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-20 16:32:01,138 - hypergraphrag - INFO - Inserting 56 vectors to hyperedges
+2026-08-20 16:32:06,683 - hypergraphrag - INFO - Inserting 57 vectors to entities
+2026-08-20 16:32:13,503 - hypergraphrag - INFO - Writing graph with 1612 nodes, 1350 edges
+2026-08-20 16:32:13,618 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-20 16:32:13,649 - hypergraphrag - INFO - [New Chunks] inserting 13 chunks
+2026-08-20 16:32:13,649 - hypergraphrag - INFO - Inserting 13 vectors to chunks
+2026-08-20 16:32:16,851 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-20 17:58:32,518 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-20 17:58:32,526 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-20 17:58:51,179 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-20 17:58:51,195 - hypergraphrag - INFO - Inserting 320 vectors to hyperedges
+2026-08-20 17:59:11,631 - hypergraphrag - INFO - Writing graph with 2341 nodes, 2006 edges
+2026-08-21 10:44:13,179 - hypergraphrag - INFO - Logger initialized for working directory: /mnt/hdd/Database/03_Projects/LLM/llm-in-action/kb-04-hypergraphrag-eval/data/workspace
+2026-08-21 10:44:13,180 - hypergraphrag - INFO - Load KV llm_response_cache with 0 data
+2026-08-21 10:44:13,181 - hypergraphrag - INFO - Load KV full_docs with 5 data
+2026-08-21 10:44:13,182 - hypergraphrag - INFO - Load KV text_chunks with 34 data
+2026-08-21 10:44:13,262 - hypergraphrag - INFO - Loaded graph from /mnt/hdd/Database/03_Projects/LLM/llm-in-action/kb-04-hypergraphrag-eval/data/workspace/graph_chunk_entity_relation.graphml with 2341 nodes, 2006 edges
+2026-08-21 10:44:13,338 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 10:44:13,810 - hypergraphrag - INFO - [New Chunks] inserting 13 chunks
+2026-08-21 10:44:13,810 - hypergraphrag - INFO - Inserting 13 vectors to chunks
+2026-08-21 10:44:16,496 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 11:29:28,892 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 11:29:28,905 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 11:29:29,056 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 11:29:29,063 - hypergraphrag - INFO - Inserting 400 vectors to hyperedges
+2026-08-21 11:59:37,650 - hypergraphrag - INFO - Inserting 400 vectors to entities
+2026-08-21 12:34:00,205 - hypergraphrag - INFO - Writing graph with 2806 nodes, 2423 edges
+2026-08-21 12:34:00,326 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 12:34:00,337 - hypergraphrag - INFO - [New Chunks] inserting 7 chunks
+2026-08-21 12:34:00,337 - hypergraphrag - INFO - Inserting 7 vectors to chunks
+2026-08-21 12:34:01,749 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 12:50:55,904 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 12:50:55,909 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 12:51:15,813 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 12:51:15,825 - hypergraphrag - INFO - Inserting 155 vectors to hyperedges
+2026-08-21 12:51:29,889 - hypergraphrag - INFO - Inserting 204 vectors to entities
+2026-08-21 12:52:14,009 - hypergraphrag - INFO - Writing graph with 3142 nodes, 2695 edges
+2026-08-21 12:52:14,132 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 12:52:14,135 - hypergraphrag - INFO - [New Chunks] inserting 2 chunks
+2026-08-21 12:52:14,135 - hypergraphrag - INFO - Inserting 2 vectors to chunks
+2026-08-21 12:52:14,511 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 12:56:27,431 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 12:56:27,437 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 12:56:27,446 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 12:56:27,448 - hypergraphrag - INFO - Inserting 24 vectors to hyperedges
+2026-08-21 12:56:29,489 - hypergraphrag - INFO - Inserting 52 vectors to entities
+2026-08-21 12:56:35,015 - hypergraphrag - INFO - Writing graph with 3213 nodes, 2788 edges
+2026-08-21 12:56:35,143 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 12:56:35,150 - hypergraphrag - INFO - [New Chunks] inserting 5 chunks
+2026-08-21 12:56:35,150 - hypergraphrag - INFO - Inserting 5 vectors to chunks
+2026-08-21 12:56:36,000 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 13:11:46,491 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 13:11:46,499 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 13:11:46,514 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 13:11:46,517 - hypergraphrag - INFO - Inserting 129 vectors to hyperedges
+2026-08-21 13:11:57,274 - hypergraphrag - INFO - Inserting 147 vectors to entities
+2026-08-21 13:12:10,319 - hypergraphrag - INFO - Writing graph with 3469 nodes, 3017 edges
+2026-08-21 13:12:10,456 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 13:12:10,460 - hypergraphrag - INFO - [New Chunks] inserting 3 chunks
+2026-08-21 13:12:10,460 - hypergraphrag - INFO - Inserting 3 vectors to chunks
+2026-08-21 13:12:10,796 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 13:20:43,640 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 13:20:43,641 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 13:20:43,650 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 13:20:43,652 - hypergraphrag - INFO - Inserting 65 vectors to hyperedges
+2026-08-21 13:20:49,150 - hypergraphrag - INFO - Inserting 120 vectors to entities
+2026-08-21 13:20:59,653 - hypergraphrag - INFO - Writing graph with 3635 nodes, 3165 edges
+2026-08-21 13:20:59,797 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 13:20:59,814 - hypergraphrag - INFO - [New Chunks] inserting 11 chunks
+2026-08-21 13:20:59,814 - hypergraphrag - INFO - Inserting 11 vectors to chunks
+2026-08-21 13:21:01,919 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 13:56:17,684 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 13:56:17,691 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 13:56:39,912 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 13:56:39,932 - hypergraphrag - INFO - Inserting 250 vectors to hyperedges
+2026-08-21 13:58:19,162 - hypergraphrag - INFO - Inserting 379 vectors to entities
+2026-08-21 14:06:52,607 - hypergraphrag - INFO - Writing graph with 4208 nodes, 3685 edges
+2026-08-21 14:06:52,775 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 14:06:52,779 - hypergraphrag - INFO - [New Chunks] inserting 2 chunks
+2026-08-21 14:06:52,779 - hypergraphrag - INFO - Inserting 2 vectors to chunks
+2026-08-21 14:06:53,226 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 14:12:54,473 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 14:12:54,479 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 14:12:54,489 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 14:12:54,491 - hypergraphrag - INFO - Inserting 33 vectors to hyperedges
+2026-08-21 14:12:57,373 - hypergraphrag - INFO - Inserting 68 vectors to entities
+2026-08-21 14:13:04,532 - hypergraphrag - INFO - Writing graph with 4294 nodes, 3760 edges
+2026-08-21 14:13:04,705 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 14:13:04,722 - hypergraphrag - INFO - [New Chunks] inserting 11 chunks
+2026-08-21 14:13:04,722 - hypergraphrag - INFO - Inserting 11 vectors to chunks
+2026-08-21 14:13:06,322 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 14:31:14,442 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 14:31:14,446 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 14:31:34,589 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 14:31:34,595 - hypergraphrag - INFO - Inserting 89 vectors to hyperedges
+2026-08-21 14:31:42,334 - hypergraphrag - INFO - Inserting 125 vectors to entities
+2026-08-21 14:31:55,261 - hypergraphrag - INFO - Writing graph with 4477 nodes, 3938 edges
+2026-08-21 14:31:55,444 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 14:31:55,448 - hypergraphrag - INFO - [New Chunks] inserting 3 chunks
+2026-08-21 14:31:55,448 - hypergraphrag - INFO - Inserting 3 vectors to chunks
+2026-08-21 14:31:55,858 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 14:38:43,970 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 14:38:43,974 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 14:39:10,452 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 14:39:10,456 - hypergraphrag - INFO - Inserting 54 vectors to hyperedges
+2026-08-21 14:39:15,193 - hypergraphrag - INFO - Inserting 55 vectors to entities
+2026-08-21 14:39:21,286 - hypergraphrag - INFO - Writing graph with 4577 nodes, 4030 edges
+2026-08-21 14:39:21,470 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 14:39:21,476 - hypergraphrag - INFO - [New Chunks] inserting 5 chunks
+2026-08-21 14:39:21,476 - hypergraphrag - INFO - Inserting 5 vectors to chunks
+2026-08-21 14:39:22,228 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 14:54:44,180 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 14:54:44,185 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 14:55:09,527 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 14:55:09,536 - hypergraphrag - INFO - Inserting 108 vectors to hyperedges
+2026-08-21 14:55:18,374 - hypergraphrag - INFO - Inserting 105 vectors to entities
+2026-08-21 14:55:28,786 - hypergraphrag - INFO - Writing graph with 4750 nodes, 4184 edges
+2026-08-21 14:55:28,984 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 14:55:28,991 - hypergraphrag - INFO - [New Chunks] inserting 4 chunks
+2026-08-21 14:55:28,991 - hypergraphrag - INFO - Inserting 4 vectors to chunks
+2026-08-21 14:55:29,636 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 15:04:48,312 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 15:04:48,315 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 15:04:48,320 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 15:04:48,322 - hypergraphrag - INFO - Inserting 32 vectors to hyperedges
+2026-08-21 15:04:51,355 - hypergraphrag - INFO - Inserting 32 vectors to entities
+2026-08-21 15:04:55,160 - hypergraphrag - INFO - Writing graph with 4810 nodes, 4217 edges
+2026-08-21 15:04:55,357 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 15:04:55,359 - hypergraphrag - INFO - [New Chunks] inserting 2 chunks
+2026-08-21 15:04:55,359 - hypergraphrag - INFO - Inserting 2 vectors to chunks
+2026-08-21 15:04:55,696 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 15:11:16,713 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 15:11:16,715 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 15:11:16,721 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 15:11:16,726 - hypergraphrag - INFO - Inserting 38 vectors to hyperedges
+2026-08-21 15:11:19,624 - hypergraphrag - INFO - Inserting 36 vectors to entities
+2026-08-21 15:11:23,814 - hypergraphrag - INFO - Writing graph with 4875 nodes, 4288 edges
+2026-08-21 15:11:24,026 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 15:11:24,029 - hypergraphrag - INFO - [New Chunks] inserting 1 chunks
+2026-08-21 15:11:24,030 - hypergraphrag - INFO - Inserting 1 vectors to chunks
+2026-08-21 15:11:24,336 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 15:13:21,443 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 15:13:21,449 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 15:13:21,453 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 15:13:21,454 - hypergraphrag - INFO - Inserting 28 vectors to hyperedges
+2026-08-21 15:13:23,514 - hypergraphrag - INFO - Inserting 30 vectors to entities
+2026-08-21 15:13:26,214 - hypergraphrag - INFO - Writing graph with 4932 nodes, 4323 edges
+2026-08-21 15:13:26,414 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 15:13:26,417 - hypergraphrag - INFO - [New Chunks] inserting 2 chunks
+2026-08-21 15:13:26,417 - hypergraphrag - INFO - Inserting 2 vectors to chunks
+2026-08-21 15:13:26,905 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 15:18:16,258 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 15:18:16,263 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 15:18:16,269 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 15:18:16,272 - hypergraphrag - INFO - Inserting 22 vectors to hyperedges
+2026-08-21 15:18:18,073 - hypergraphrag - INFO - Inserting 48 vectors to entities
+2026-08-21 15:18:21,995 - hypergraphrag - INFO - Writing graph with 4999 nodes, 4411 edges
+2026-08-21 15:18:22,197 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 15:18:22,200 - hypergraphrag - INFO - [New Chunks] inserting 1 chunks
+2026-08-21 15:18:22,200 - hypergraphrag - INFO - Inserting 1 vectors to chunks
+2026-08-21 15:18:22,494 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 15:21:46,313 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 15:21:46,317 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 15:21:46,326 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 15:21:46,328 - hypergraphrag - INFO - Inserting 10 vectors to hyperedges
+2026-08-21 15:21:47,243 - hypergraphrag - INFO - Inserting 47 vectors to entities
+2026-08-21 15:21:51,260 - hypergraphrag - INFO - Writing graph with 5049 nodes, 4472 edges
+2026-08-21 15:21:51,471 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 15:21:51,472 - hypergraphrag - INFO - [New Chunks] inserting 1 chunks
+2026-08-21 15:21:51,472 - hypergraphrag - INFO - Inserting 1 vectors to chunks
+2026-08-21 15:21:51,658 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 15:23:56,439 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 15:23:56,441 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 15:23:56,446 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 15:23:56,447 - hypergraphrag - INFO - Inserting 20 vectors to hyperedges
+2026-08-21 15:23:58,056 - hypergraphrag - INFO - Inserting 23 vectors to entities
+2026-08-21 15:24:00,396 - hypergraphrag - INFO - Writing graph with 5086 nodes, 4516 edges
+2026-08-21 15:24:00,604 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 15:24:00,608 - hypergraphrag - INFO - [New Chunks] inserting 2 chunks
+2026-08-21 15:24:00,608 - hypergraphrag - INFO - Inserting 2 vectors to chunks
+2026-08-21 15:24:01,077 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 15:30:21,175 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 15:30:21,177 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 15:30:21,190 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 15:30:21,193 - hypergraphrag - INFO - Inserting 34 vectors to hyperedges
+2026-08-21 15:30:23,889 - hypergraphrag - INFO - Inserting 70 vectors to entities
+2026-08-21 15:30:31,273 - hypergraphrag - INFO - Writing graph with 5183 nodes, 4619 edges
+2026-08-21 15:30:31,478 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 15:30:31,479 - hypergraphrag - INFO - [New Chunks] inserting 1 chunks
+2026-08-21 15:30:31,479 - hypergraphrag - INFO - Inserting 1 vectors to chunks
+2026-08-21 15:30:31,743 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 15:32:15,636 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 15:32:15,642 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 15:32:15,647 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 15:32:15,648 - hypergraphrag - INFO - Inserting 23 vectors to hyperedges
+2026-08-21 15:32:17,355 - hypergraphrag - INFO - Inserting 26 vectors to entities
+2026-08-21 15:32:19,837 - hypergraphrag - INFO - Writing graph with 5231 nodes, 4660 edges
+2026-08-21 15:32:20,056 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 15:32:20,059 - hypergraphrag - INFO - [New Chunks] inserting 1 chunks
+2026-08-21 15:32:20,059 - hypergraphrag - INFO - Inserting 1 vectors to chunks
+2026-08-21 15:32:20,343 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 15:36:00,285 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 15:36:00,287 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 15:36:00,295 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 15:36:00,297 - hypergraphrag - INFO - Inserting 23 vectors to hyperedges
+2026-08-21 15:36:02,118 - hypergraphrag - INFO - Inserting 47 vectors to entities
+2026-08-21 15:36:06,963 - hypergraphrag - INFO - Writing graph with 5289 nodes, 4713 edges
+2026-08-21 15:36:07,173 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 15:36:07,176 - hypergraphrag - INFO - [New Chunks] inserting 2 chunks
+2026-08-21 15:36:07,176 - hypergraphrag - INFO - Inserting 2 vectors to chunks
+2026-08-21 15:36:07,668 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 15:40:35,306 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 15:40:35,312 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 15:40:35,321 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 15:40:35,322 - hypergraphrag - INFO - Inserting 36 vectors to hyperedges
+2026-08-21 15:40:38,199 - hypergraphrag - INFO - Inserting 49 vectors to entities
+2026-08-21 15:40:42,990 - hypergraphrag - INFO - Writing graph with 5365 nodes, 4776 edges
+2026-08-21 15:40:43,203 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 15:40:43,211 - hypergraphrag - INFO - [New Chunks] inserting 5 chunks
+2026-08-21 15:40:43,211 - hypergraphrag - INFO - Inserting 5 vectors to chunks
+2026-08-21 15:40:45,706 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 15:57:30,038 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 15:57:30,045 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 15:57:30,057 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 15:57:30,058 - hypergraphrag - INFO - Inserting 40 vectors to hyperedges
+2026-08-21 15:57:33,340 - hypergraphrag - INFO - Inserting 64 vectors to entities
+2026-08-21 15:57:38,881 - hypergraphrag - INFO - Writing graph with 5456 nodes, 4853 edges
+2026-08-21 15:57:39,103 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 15:57:39,105 - hypergraphrag - INFO - [New Chunks] inserting 1 chunks
+2026-08-21 15:57:39,105 - hypergraphrag - INFO - Inserting 1 vectors to chunks
+2026-08-21 15:57:39,389 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 16:01:07,082 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 16:01:07,083 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 16:01:07,088 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 16:01:07,090 - hypergraphrag - INFO - Inserting 5 vectors to hyperedges
+2026-08-21 16:01:07,672 - hypergraphrag - INFO - Inserting 33 vectors to entities
+2026-08-21 16:01:10,509 - hypergraphrag - INFO - Writing graph with 5492 nodes, 4886 edges
+2026-08-21 16:01:10,843 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 16:01:10,848 - hypergraphrag - INFO - [New Chunks] inserting 1 chunks
+2026-08-21 16:01:10,848 - hypergraphrag - INFO - Inserting 1 vectors to chunks
+2026-08-21 16:01:11,207 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 16:04:13,898 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 16:04:13,900 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 16:04:13,907 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 16:04:13,908 - hypergraphrag - INFO - Inserting 20 vectors to hyperedges
+2026-08-21 16:04:15,607 - hypergraphrag - INFO - Inserting 22 vectors to entities
+2026-08-21 16:04:18,464 - hypergraphrag - INFO - Writing graph with 5528 nodes, 4917 edges
+2026-08-21 16:04:18,686 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 16:04:18,689 - hypergraphrag - INFO - [New Chunks] inserting 2 chunks
+2026-08-21 16:04:18,689 - hypergraphrag - INFO - Inserting 2 vectors to chunks
+2026-08-21 16:04:19,011 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 16:07:42,992 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 16:07:42,995 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 16:07:43,007 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 16:07:43,010 - hypergraphrag - INFO - Inserting 6 vectors to hyperedges
+2026-08-21 16:07:43,643 - hypergraphrag - INFO - Inserting 48 vectors to entities
+2026-08-21 16:07:48,342 - hypergraphrag - INFO - Writing graph with 5566 nodes, 4967 edges
+2026-08-21 16:07:48,564 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 16:07:48,565 - hypergraphrag - INFO - [New Chunks] inserting 1 chunks
+2026-08-21 16:07:48,565 - hypergraphrag - INFO - Inserting 1 vectors to chunks
+2026-08-21 16:07:48,810 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 16:08:54,817 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 16:08:54,818 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 16:08:54,824 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 16:08:54,825 - hypergraphrag - INFO - Inserting 14 vectors to hyperedges
+2026-08-21 16:08:56,012 - hypergraphrag - INFO - Inserting 11 vectors to entities
+2026-08-21 16:08:58,318 - hypergraphrag - INFO - Writing graph with 5587 nodes, 4982 edges
+2026-08-21 16:08:58,606 - hypergraphrag - INFO - [New Docs] inserting 1 docs
+2026-08-21 16:08:58,611 - hypergraphrag - INFO - [New Chunks] inserting 1 chunks
+2026-08-21 16:08:58,611 - hypergraphrag - INFO - Inserting 1 vectors to chunks
+2026-08-21 16:08:58,886 - hypergraphrag - INFO - [Entity Extraction]...
+2026-08-21 16:11:44,058 - hypergraphrag - INFO - Inserting hyperedges into storage...
+2026-08-21 16:11:44,060 - hypergraphrag - INFO - Inserting entities into storage...
+2026-08-21 16:11:44,066 - hypergraphrag - INFO - Inserting relationships into storage...
+2026-08-21 16:11:44,068 - hypergraphrag - INFO - Inserting 5 vectors to hyperedges
+2026-08-21 16:11:44,617 - hypergraphrag - INFO - Inserting 20 vectors to entities
+2026-08-21 16:11:46,896 - hypergraphrag - INFO - Writing graph with 5603 nodes, 5006 edges
+2026-08-21 16:11:52,162 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:11:52,410 - hypergraphrag - INFO - Local query uses 60 entites, 76 relations, 3 text units
+2026-08-21 16:11:52,676 - hypergraphrag - INFO - Global query uses 63 entites, 60 relations, 3 text units
+2026-08-21 16:12:41,143 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:12:41,144 - hypergraphrag - WARNING - low_level_keywords is empty
+2026-08-21 16:12:49,226 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:12:49,501 - hypergraphrag - INFO - Local query uses 60 entites, 91 relations, 3 text units
+2026-08-21 16:12:49,836 - hypergraphrag - INFO - Global query uses 42 entites, 60 relations, 3 text units
+2026-08-21 16:13:08,721 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:13:09,003 - hypergraphrag - INFO - Local query uses 60 entites, 85 relations, 4 text units
+2026-08-21 16:13:09,321 - hypergraphrag - INFO - Global query uses 97 entites, 60 relations, 4 text units
+2026-08-21 16:13:43,726 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:13:44,004 - hypergraphrag - INFO - Local query uses 60 entites, 75 relations, 3 text units
+2026-08-21 16:13:44,350 - hypergraphrag - INFO - Global query uses 70 entites, 60 relations, 3 text units
+2026-08-21 16:14:15,603 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:14:15,912 - hypergraphrag - INFO - Local query uses 60 entites, 80 relations, 3 text units
+2026-08-21 16:14:16,222 - hypergraphrag - INFO - Global query uses 45 entites, 60 relations, 3 text units
+2026-08-21 16:14:42,663 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:14:42,941 - hypergraphrag - INFO - Local query uses 60 entites, 90 relations, 4 text units
+2026-08-21 16:14:43,228 - hypergraphrag - INFO - Global query uses 88 entites, 60 relations, 4 text units
+2026-08-21 16:15:27,222 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:15:27,527 - hypergraphrag - INFO - Local query uses 60 entites, 100 relations, 3 text units
+2026-08-21 16:15:27,906 - hypergraphrag - INFO - Global query uses 79 entites, 60 relations, 4 text units
+2026-08-21 16:15:55,283 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:15:55,581 - hypergraphrag - INFO - Local query uses 60 entites, 99 relations, 3 text units
+2026-08-21 16:15:55,850 - hypergraphrag - INFO - Global query uses 70 entites, 60 relations, 3 text units
+2026-08-21 16:16:12,241 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:16:12,521 - hypergraphrag - INFO - Local query uses 60 entites, 75 relations, 3 text units
+2026-08-21 16:16:12,778 - hypergraphrag - INFO - Global query uses 55 entites, 60 relations, 3 text units
+2026-08-21 16:16:31,673 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:16:31,971 - hypergraphrag - INFO - Local query uses 60 entites, 87 relations, 3 text units
+2026-08-21 16:16:32,244 - hypergraphrag - INFO - Global query uses 89 entites, 60 relations, 3 text units
+2026-08-21 16:16:54,459 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:16:54,751 - hypergraphrag - INFO - Local query uses 60 entites, 91 relations, 3 text units
+2026-08-21 16:16:55,024 - hypergraphrag - INFO - Global query uses 58 entites, 60 relations, 3 text units
+2026-08-21 16:17:16,489 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:17:16,758 - hypergraphrag - INFO - Local query uses 60 entites, 80 relations, 3 text units
+2026-08-21 16:17:17,034 - hypergraphrag - INFO - Global query uses 57 entites, 60 relations, 4 text units
+2026-08-21 16:17:40,290 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:17:40,560 - hypergraphrag - INFO - Local query uses 60 entites, 79 relations, 3 text units
+2026-08-21 16:17:40,936 - hypergraphrag - INFO - Global query uses 66 entites, 60 relations, 4 text units
+2026-08-21 16:18:17,539 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:18:17,824 - hypergraphrag - INFO - Local query uses 60 entites, 96 relations, 3 text units
+2026-08-21 16:18:18,161 - hypergraphrag - INFO - Global query uses 89 entites, 60 relations, 3 text units
+2026-08-21 16:18:52,028 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:18:52,302 - hypergraphrag - INFO - Local query uses 60 entites, 105 relations, 3 text units
+2026-08-21 16:18:52,607 - hypergraphrag - INFO - Global query uses 77 entites, 60 relations, 3 text units
+2026-08-21 16:19:11,029 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:19:11,326 - hypergraphrag - INFO - Local query uses 60 entites, 89 relations, 3 text units
+2026-08-21 16:19:11,674 - hypergraphrag - INFO - Global query uses 59 entites, 60 relations, 3 text units
+2026-08-21 16:19:36,838 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:19:36,839 - hypergraphrag - WARNING - low_level_keywords is empty
+2026-08-21 16:19:43,760 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:19:44,059 - hypergraphrag - INFO - Local query uses 60 entites, 88 relations, 3 text units
+2026-08-21 16:19:44,363 - hypergraphrag - INFO - Global query uses 84 entites, 60 relations, 3 text units
+2026-08-21 16:20:01,641 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:20:01,942 - hypergraphrag - INFO - Local query uses 60 entites, 95 relations, 3 text units
+2026-08-21 16:20:02,240 - hypergraphrag - INFO - Global query uses 62 entites, 60 relations, 3 text units
+2026-08-21 16:20:24,190 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:20:24,474 - hypergraphrag - INFO - Local query uses 60 entites, 67 relations, 3 text units
+2026-08-21 16:20:24,758 - hypergraphrag - INFO - Global query uses 40 entites, 60 relations, 3 text units
+2026-08-21 16:20:43,060 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:20:43,342 - hypergraphrag - INFO - Local query uses 60 entites, 72 relations, 3 text units
+2026-08-21 16:20:43,642 - hypergraphrag - INFO - Global query uses 67 entites, 60 relations, 3 text units
+2026-08-21 16:21:48,241 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:21:48,554 - hypergraphrag - INFO - Local query uses 60 entites, 117 relations, 5 text units
+2026-08-21 16:21:48,971 - hypergraphrag - INFO - Global query uses 78 entites, 60 relations, 3 text units
+2026-08-21 16:22:17,058 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:22:17,349 - hypergraphrag - INFO - Local query uses 60 entites, 102 relations, 3 text units
+2026-08-21 16:22:17,647 - hypergraphrag - INFO - Global query uses 67 entites, 60 relations, 3 text units
+2026-08-21 16:22:41,028 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:22:41,323 - hypergraphrag - INFO - Local query uses 60 entites, 81 relations, 4 text units
+2026-08-21 16:22:41,651 - hypergraphrag - INFO - Global query uses 59 entites, 60 relations, 3 text units
+2026-08-21 16:23:00,277 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:23:00,556 - hypergraphrag - INFO - Local query uses 60 entites, 64 relations, 3 text units
+2026-08-21 16:23:00,841 - hypergraphrag - INFO - Global query uses 61 entites, 60 relations, 4 text units
+2026-08-21 16:23:40,020 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:23:40,262 - hypergraphrag - INFO - Local query uses 60 entites, 107 relations, 4 text units
+2026-08-21 16:23:40,549 - hypergraphrag - INFO - Global query uses 104 entites, 60 relations, 5 text units
+2026-08-21 16:23:56,424 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:23:56,703 - hypergraphrag - INFO - Local query uses 60 entites, 102 relations, 4 text units
+2026-08-21 16:23:56,975 - hypergraphrag - INFO - Global query uses 95 entites, 60 relations, 5 text units
+2026-08-21 16:24:33,565 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:24:33,839 - hypergraphrag - INFO - Local query uses 60 entites, 94 relations, 3 text units
+2026-08-21 16:24:34,107 - hypergraphrag - INFO - Global query uses 91 entites, 60 relations, 4 text units
+2026-08-21 16:24:49,972 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:24:50,249 - hypergraphrag - INFO - Local query uses 60 entites, 108 relations, 3 text units
+2026-08-21 16:24:50,516 - hypergraphrag - INFO - Global query uses 70 entites, 60 relations, 3 text units
+2026-08-21 16:25:30,099 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:25:30,375 - hypergraphrag - INFO - Local query uses 60 entites, 89 relations, 3 text units
+2026-08-21 16:25:30,668 - hypergraphrag - INFO - Global query uses 86 entites, 60 relations, 4 text units
+2026-08-21 16:25:52,547 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:25:52,851 - hypergraphrag - INFO - Local query uses 60 entites, 79 relations, 5 text units
+2026-08-21 16:25:53,173 - hypergraphrag - INFO - Global query uses 103 entites, 60 relations, 4 text units
+2026-08-21 16:26:12,870 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:26:13,137 - hypergraphrag - INFO - Local query uses 60 entites, 92 relations, 5 text units
+2026-08-21 16:26:13,430 - hypergraphrag - INFO - Global query uses 76 entites, 60 relations, 4 text units
+2026-08-21 16:26:45,680 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:26:45,951 - hypergraphrag - INFO - Local query uses 60 entites, 95 relations, 3 text units
+2026-08-21 16:26:46,267 - hypergraphrag - INFO - Global query uses 75 entites, 60 relations, 3 text units
+2026-08-21 16:27:00,643 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:27:00,913 - hypergraphrag - INFO - Local query uses 60 entites, 80 relations, 3 text units
+2026-08-21 16:27:01,211 - hypergraphrag - INFO - Global query uses 80 entites, 60 relations, 4 text units
+2026-08-21 16:28:29,507 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:28:29,787 - hypergraphrag - INFO - Local query uses 60 entites, 111 relations, 3 text units
+2026-08-21 16:28:30,837 - hypergraphrag - INFO - Global query uses 80 entites, 60 relations, 4 text units
+2026-08-21 16:28:58,637 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:28:58,925 - hypergraphrag - INFO - Local query uses 60 entites, 106 relations, 4 text units
+2026-08-21 16:28:59,226 - hypergraphrag - INFO - Global query uses 90 entites, 60 relations, 6 text units
+2026-08-21 16:29:27,357 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:29:27,634 - hypergraphrag - INFO - Local query uses 60 entites, 95 relations, 5 text units
+2026-08-21 16:29:27,942 - hypergraphrag - INFO - Global query uses 92 entites, 60 relations, 6 text units
+2026-08-21 16:29:48,704 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:29:48,704 - hypergraphrag - WARNING - low_level_keywords is empty
+2026-08-21 16:30:10,770 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:30:11,084 - hypergraphrag - INFO - Local query uses 60 entites, 92 relations, 4 text units
+2026-08-21 16:30:11,419 - hypergraphrag - INFO - Global query uses 101 entites, 60 relations, 4 text units
+2026-08-21 16:30:45,123 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:30:45,483 - hypergraphrag - INFO - Local query uses 60 entites, 91 relations, 4 text units
+2026-08-21 16:30:45,806 - hypergraphrag - INFO - Global query uses 70 entites, 60 relations, 3 text units
+2026-08-21 16:31:15,359 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:31:15,664 - hypergraphrag - INFO - Local query uses 60 entites, 105 relations, 5 text units
+2026-08-21 16:31:15,976 - hypergraphrag - INFO - Global query uses 82 entites, 60 relations, 5 text units
+2026-08-21 16:31:27,767 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:31:28,061 - hypergraphrag - INFO - Local query uses 60 entites, 91 relations, 3 text units
+2026-08-21 16:31:28,345 - hypergraphrag - INFO - Global query uses 84 entites, 60 relations, 4 text units
+2026-08-21 16:31:50,898 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:31:51,223 - hypergraphrag - INFO - Local query uses 60 entites, 91 relations, 4 text units
+2026-08-21 16:31:51,510 - hypergraphrag - INFO - Global query uses 79 entites, 60 relations, 4 text units
+2026-08-21 16:32:13,773 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:32:14,056 - hypergraphrag - INFO - Local query uses 60 entites, 81 relations, 3 text units
+2026-08-21 16:32:14,375 - hypergraphrag - INFO - Global query uses 59 entites, 60 relations, 3 text units
+2026-08-21 16:32:45,896 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:32:46,194 - hypergraphrag - INFO - Local query uses 60 entites, 99 relations, 3 text units
+2026-08-21 16:32:46,552 - hypergraphrag - INFO - Global query uses 88 entites, 60 relations, 3 text units
+2026-08-21 16:33:13,069 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:33:13,357 - hypergraphrag - INFO - Local query uses 60 entites, 105 relations, 5 text units
+2026-08-21 16:33:13,747 - hypergraphrag - INFO - Global query uses 76 entites, 60 relations, 5 text units
+2026-08-21 16:33:30,646 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:33:30,954 - hypergraphrag - INFO - Local query uses 60 entites, 79 relations, 4 text units
+2026-08-21 16:33:31,259 - hypergraphrag - INFO - Global query uses 92 entites, 60 relations, 5 text units
+2026-08-21 16:33:57,352 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:33:57,642 - hypergraphrag - INFO - Local query uses 60 entites, 91 relations, 4 text units
+2026-08-21 16:33:57,940 - hypergraphrag - INFO - Global query uses 74 entites, 60 relations, 3 text units
+2026-08-21 16:34:17,033 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:34:17,321 - hypergraphrag - INFO - Local query uses 60 entites, 90 relations, 3 text units
+2026-08-21 16:34:17,600 - hypergraphrag - INFO - Global query uses 77 entites, 60 relations, 3 text units
+2026-08-21 16:34:51,784 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:34:52,101 - hypergraphrag - INFO - Local query uses 60 entites, 85 relations, 4 text units
+2026-08-21 16:34:52,439 - hypergraphrag - INFO - Global query uses 87 entites, 60 relations, 4 text units
+2026-08-21 16:35:47,096 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:35:47,429 - hypergraphrag - INFO - Local query uses 60 entites, 94 relations, 3 text units
+2026-08-21 16:35:47,791 - hypergraphrag - INFO - Global query uses 51 entites, 60 relations, 4 text units
+2026-08-21 16:36:16,729 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:36:17,046 - hypergraphrag - INFO - Local query uses 60 entites, 86 relations, 3 text units
+2026-08-21 16:36:17,361 - hypergraphrag - INFO - Global query uses 64 entites, 60 relations, 3 text units
+2026-08-21 16:36:37,347 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:36:37,618 - hypergraphrag - INFO - Local query uses 60 entites, 91 relations, 3 text units
+2026-08-21 16:36:37,931 - hypergraphrag - INFO - Global query uses 66 entites, 60 relations, 3 text units
+2026-08-21 16:37:12,778 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:37:13,066 - hypergraphrag - INFO - Local query uses 60 entites, 72 relations, 4 text units
+2026-08-21 16:37:13,427 - hypergraphrag - INFO - Global query uses 81 entites, 60 relations, 3 text units
+2026-08-21 16:38:07,519 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:38:07,791 - hypergraphrag - INFO - Local query uses 60 entites, 85 relations, 3 text units
+2026-08-21 16:38:08,286 - hypergraphrag - INFO - Global query uses 74 entites, 60 relations, 3 text units
+2026-08-21 16:39:01,302 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:39:01,601 - hypergraphrag - INFO - Local query uses 60 entites, 91 relations, 3 text units
+2026-08-21 16:39:01,923 - hypergraphrag - INFO - Global query uses 67 entites, 60 relations, 4 text units
+2026-08-21 16:39:48,040 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:39:48,378 - hypergraphrag - INFO - Local query uses 60 entites, 81 relations, 3 text units
+2026-08-21 16:39:48,832 - hypergraphrag - INFO - Global query uses 81 entites, 60 relations, 3 text units
+2026-08-21 16:40:22,993 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:40:23,309 - hypergraphrag - INFO - Local query uses 60 entites, 104 relations, 4 text units
+2026-08-21 16:40:23,622 - hypergraphrag - INFO - Global query uses 34 entites, 60 relations, 3 text units
+2026-08-21 16:40:56,122 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:40:56,429 - hypergraphrag - INFO - Local query uses 60 entites, 88 relations, 3 text units
+2026-08-21 16:40:56,730 - hypergraphrag - INFO - Global query uses 79 entites, 60 relations, 3 text units
+2026-08-21 16:41:33,437 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:41:33,724 - hypergraphrag - INFO - Local query uses 60 entites, 88 relations, 4 text units
+2026-08-21 16:41:34,064 - hypergraphrag - INFO - Global query uses 64 entites, 60 relations, 4 text units
+2026-08-21 16:42:16,657 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:42:16,971 - hypergraphrag - INFO - Local query uses 60 entites, 91 relations, 3 text units
+2026-08-21 16:42:17,306 - hypergraphrag - INFO - Global query uses 48 entites, 60 relations, 3 text units
+2026-08-21 16:42:44,491 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:42:44,807 - hypergraphrag - INFO - Local query uses 60 entites, 84 relations, 4 text units
+2026-08-21 16:42:45,136 - hypergraphrag - INFO - Global query uses 66 entites, 60 relations, 4 text units
+2026-08-21 16:43:19,849 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:43:20,132 - hypergraphrag - INFO - Local query uses 60 entites, 83 relations, 3 text units
+2026-08-21 16:43:20,472 - hypergraphrag - INFO - Global query uses 51 entites, 60 relations, 3 text units
+2026-08-21 16:44:20,542 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:44:20,845 - hypergraphrag - INFO - Local query uses 60 entites, 82 relations, 4 text units
+2026-08-21 16:44:21,223 - hypergraphrag - INFO - Global query uses 70 entites, 60 relations, 4 text units
+2026-08-21 16:44:47,162 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:44:47,448 - hypergraphrag - INFO - Local query uses 60 entites, 89 relations, 3 text units
+2026-08-21 16:44:47,749 - hypergraphrag - INFO - Global query uses 64 entites, 60 relations, 3 text units
+2026-08-21 16:45:27,425 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:45:27,745 - hypergraphrag - INFO - Local query uses 60 entites, 101 relations, 4 text units
+2026-08-21 16:45:28,034 - hypergraphrag - INFO - Global query uses 40 entites, 60 relations, 4 text units
+2026-08-21 16:46:26,091 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:46:26,405 - hypergraphrag - INFO - Local query uses 60 entites, 93 relations, 3 text units
+2026-08-21 16:46:26,791 - hypergraphrag - INFO - Global query uses 39 entites, 60 relations, 3 text units
+2026-08-21 16:47:27,474 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:47:27,770 - hypergraphrag - INFO - Local query uses 60 entites, 77 relations, 3 text units
+2026-08-21 16:47:28,155 - hypergraphrag - INFO - Global query uses 53 entites, 60 relations, 3 text units
+2026-08-21 16:48:15,673 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:48:16,004 - hypergraphrag - INFO - Local query uses 60 entites, 101 relations, 4 text units
+2026-08-21 16:48:16,349 - hypergraphrag - INFO - Global query uses 97 entites, 60 relations, 4 text units
+2026-08-21 16:48:36,970 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:48:37,319 - hypergraphrag - INFO - Local query uses 60 entites, 96 relations, 4 text units
+2026-08-21 16:48:37,604 - hypergraphrag - INFO - Global query uses 81 entites, 60 relations, 4 text units
+2026-08-21 16:48:59,438 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:48:59,780 - hypergraphrag - INFO - Local query uses 60 entites, 96 relations, 3 text units
+2026-08-21 16:49:00,066 - hypergraphrag - INFO - Global query uses 117 entites, 60 relations, 4 text units
+2026-08-21 16:49:16,871 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:49:17,210 - hypergraphrag - INFO - Local query uses 60 entites, 109 relations, 4 text units
+2026-08-21 16:49:17,504 - hypergraphrag - INFO - Global query uses 69 entites, 60 relations, 3 text units
+2026-08-21 16:49:35,408 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:49:35,709 - hypergraphrag - INFO - Local query uses 60 entites, 88 relations, 3 text units
+2026-08-21 16:49:36,014 - hypergraphrag - INFO - Global query uses 78 entites, 60 relations, 3 text units
+2026-08-21 16:49:57,399 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:49:57,749 - hypergraphrag - INFO - Local query uses 60 entites, 71 relations, 3 text units
+2026-08-21 16:49:58,040 - hypergraphrag - INFO - Global query uses 66 entites, 60 relations, 4 text units
+2026-08-21 16:50:11,938 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:50:12,220 - hypergraphrag - INFO - Local query uses 60 entites, 76 relations, 4 text units
+2026-08-21 16:50:12,518 - hypergraphrag - INFO - Global query uses 80 entites, 60 relations, 3 text units
+2026-08-21 16:50:38,309 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:50:39,411 - hypergraphrag - INFO - Local query uses 60 entites, 89 relations, 3 text units
+2026-08-21 16:50:39,719 - hypergraphrag - INFO - Global query uses 83 entites, 60 relations, 3 text units
+2026-08-21 16:50:58,566 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:50:58,897 - hypergraphrag - INFO - Local query uses 60 entites, 102 relations, 3 text units
+2026-08-21 16:50:59,218 - hypergraphrag - INFO - Global query uses 93 entites, 60 relations, 4 text units
+2026-08-21 16:51:23,954 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:51:24,230 - hypergraphrag - INFO - Local query uses 60 entites, 64 relations, 3 text units
+2026-08-21 16:51:24,545 - hypergraphrag - INFO - Global query uses 51 entites, 60 relations, 4 text units
+2026-08-21 16:51:46,932 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:51:47,221 - hypergraphrag - INFO - Local query uses 60 entites, 77 relations, 4 text units
+2026-08-21 16:51:47,565 - hypergraphrag - INFO - Global query uses 65 entites, 60 relations, 4 text units
+2026-08-21 16:52:08,201 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:52:08,474 - hypergraphrag - INFO - Local query uses 60 entites, 82 relations, 3 text units
+2026-08-21 16:52:08,754 - hypergraphrag - INFO - Global query uses 58 entites, 60 relations, 3 text units
+2026-08-21 16:52:32,116 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:52:32,409 - hypergraphrag - INFO - Local query uses 60 entites, 72 relations, 3 text units
+2026-08-21 16:52:32,688 - hypergraphrag - INFO - Global query uses 76 entites, 60 relations, 4 text units
+2026-08-21 16:53:01,898 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:53:02,335 - hypergraphrag - INFO - Local query uses 60 entites, 85 relations, 3 text units
+2026-08-21 16:53:02,612 - hypergraphrag - INFO - Global query uses 75 entites, 60 relations, 4 text units
+2026-08-21 16:53:17,248 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:53:17,550 - hypergraphrag - INFO - Local query uses 60 entites, 71 relations, 5 text units
+2026-08-21 16:53:17,860 - hypergraphrag - INFO - Global query uses 69 entites, 60 relations, 4 text units
+2026-08-21 16:53:48,072 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:53:48,371 - hypergraphrag - INFO - Local query uses 60 entites, 81 relations, 3 text units
+2026-08-21 16:53:48,686 - hypergraphrag - INFO - Global query uses 75 entites, 60 relations, 4 text units
+2026-08-21 16:54:09,984 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:54:10,754 - hypergraphrag - INFO - Local query uses 60 entites, 89 relations, 4 text units
+2026-08-21 16:54:11,305 - hypergraphrag - INFO - Global query uses 61 entites, 60 relations, 3 text units
+2026-08-21 16:54:36,746 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:54:37,334 - hypergraphrag - INFO - Local query uses 60 entites, 94 relations, 4 text units
+2026-08-21 16:54:37,892 - hypergraphrag - INFO - Global query uses 97 entites, 60 relations, 6 text units
+2026-08-21 16:55:04,840 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:55:05,413 - hypergraphrag - INFO - Local query uses 60 entites, 78 relations, 4 text units
+2026-08-21 16:55:05,947 - hypergraphrag - INFO - Global query uses 64 entites, 60 relations, 3 text units
+2026-08-21 16:55:23,033 - hypergraphrag - INFO - kw_prompt result:
+2026-08-21 16:55:23,568 - hypergraphrag - INFO - Local query uses 60 entites, 84 relations, 4 text units
+2026-08-21 16:55:24,114 - hypergraphrag - INFO - Global query uses 73 entites, 60 relations, 3 text units
